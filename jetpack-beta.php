@@ -58,6 +58,7 @@ define( 'JETPACK_BETA_REPORT_URL', 'https://jetpack.com/contact-support/beta-gro
 
 
 require_once 'autoupdate-self.php';
+require_once 'class-jetpackbetaclicommand.php';
 add_action( 'init', array( 'Jetpack_Beta_Autoupdate_Self', 'instance' ) );
 
 class Jetpack_Beta {
