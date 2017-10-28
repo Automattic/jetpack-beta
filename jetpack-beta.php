@@ -650,11 +650,11 @@ class Jetpack_Beta {
 			$creds = request_filesystem_credentials( site_url() . '/wp-admin/', '', false, false, array() );
 			if ( ! WP_Filesystem( $creds ) ) {
 				/* any problems and we exit */
-				return;
+				return new WP_error( 'Filesystem Problem' );
 			}
 			global $wp_filesystem;
 			if ( ! $wp_filesystem ) {
-				return;
+				return new WP_error( '$wp_filesystem is not global' );
 			}
 
 			$working_dir = WP_PLUGIN_DIR . DIRECTORY_SEPARATOR . 'jetpack-pressable-beta';
