@@ -40,7 +40,7 @@ if ( defined( 'WP_CLI' ) && WP_CLI ) {
 					}
 					return WP_CLI::error( __( 'Unrecognized version', 'jetpack' ) );
 				} else {
-					WP_CLI::error( __( 'Specify a branch to activate', 'jetpack' ) );
+					WP_CLI::error( __( 'Specify master or stable', 'jetpack' ) );
 				}
 			}
 			return WP_CLI::error( __( 'Specify subcommand', 'jetpack' ) );
