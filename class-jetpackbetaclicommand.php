@@ -1,6 +1,7 @@
 <?php
 
-if ( defined( 'WP_CLI' ) && WP_CLI ) {
+// To make sure this extention is not available for multisite instalations
+if ( defined( 'WP_CLI' ) && WP_CLI && ! is_multisite() && is_main_site() ) {
 	/**
 	 * Control your local Jetpack Beta Tester plugin.
 	 */
