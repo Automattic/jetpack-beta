@@ -1,7 +1,6 @@
 <?php
 
-// To make sure this extention is not available for multisite instalations
-if ( defined( 'WP_CLI' ) && WP_CLI && ! is_multisite() && is_main_site() ) {
+if ( defined( 'WP_CLI' ) && WP_CLI ) {
 	/**
 	 * Control your local Jetpack Beta Tester plugin.
 	 */
@@ -23,28 +22,38 @@ if ( defined( 'WP_CLI' ) && WP_CLI && ! is_multisite() && is_main_site() ) {
 		 *
 		 */
 		public function branch( $args ) {
-			if ( ! empty( $args ) ) {
-				if ( 'activate' === $args[0] && ! empty( $args[1] ) ) {
-					if ( 'master' === $args[1] ) {
-						$retvalue = Jetpack_Beta::install_and_activate( 'master', 'master' );
-						if ( is_wp_error( $retvalue ) ) {
-							return WP_CLI::error( __( 'Error', 'jetpack' ) . $retvalue->get_error_message() );
-						}
-						return WP_CLI::success( __( 'Jetpack is currently on Bleeding Edge', 'jetpack-beta' ) );
-					}
-					if ( 'stable' === $args[1] ) {
-						$retvalue = Jetpack_Beta::install_and_activate( 'stable', 'stable' );
-						if ( is_wp_error( $retvalue ) ) {
-							return WP_CLI::error( __( 'Error', 'jetpack' ) . $retvalue->get_error_message() );
-						}
-						return WP_CLI::success( __( 'Jetpack is currently on Latest Stable', 'jetpack-beta' ) );
-					}
-					return WP_CLI::error( __( 'Unrecognized version', 'jetpack' ) );
-				} else {
-					WP_CLI::error( __( 'Specify master or stable', 'jetpack' ) );
+
+			$this->validation_checks($args);
+				
+			if ( 'master' === $args[1] ) {
+				$retvalue = Jetpack_Beta::install_and_activate( 'master', 'master' );
+				if ( is_wp_error( $retvalue ) ) {
+					return WP_CLI::error( __( 'Error', 'jetpack' ) . $retvalue->get_error_message() );
 				}
+				return WP_CLI::success( __( 'Jetpack is currently on Bleeding Edge', 'jetpack-beta' ) );
 			}
-			return WP_CLI::error( __( 'Specify subcommand', 'jetpack' ) );
+			if ( 'stable' === $args[1] ) {
+				$retvalue = Jetpack_Beta::install_and_activate( 'stable', 'stable' );
+				if ( is_wp_error( $retvalue ) ) {
+					return WP_CLI::error( __( 'Error', 'jetpack' ) . $retvalue->get_error_message() );
+				}
+				return WP_CLI::success( __( 'Jetpack is currently on Latest Stable', 'jetpack-beta' ) );
+			}
+			return WP_CLI::error( __( 'Unrecognized version', 'jetpack' ) );
+		}
+
+		private function validation_checks($args) {
+			if ( is_multisite() && ! is_main_site() ) {
+				return WP_CLI::error( __( 'Secondary sites in multisite instalations are not supported', 'jetpack' ) );				
+			}
+
+			if ( empty( $args ) ) {
+				return WP_CLI::error( __( 'Specify subcommand', 'jetpack' ) );
+			}
+
+			if ( 'activate' !== $args[0] || empty( $args[1] ) ) {
+				WP_CLI::error( __( 'Passed arguments are not valid. Check usage examples', 'jetpack' ) );				
+			}
 		}
 	}
 
