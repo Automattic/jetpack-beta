@@ -304,7 +304,7 @@ class Jetpack_Beta {
 
 		if ( self::get_plugin_slug() === JETPACK_DEV_PLUGIN_SLUG ) {
 			// Highlight the menu if you are running the BETA Versions..
-			echo "<style>#wpadminbar #wp-admin-bar-jetpack-beta_admin_bar { background: #72af3a; }</style>";
+			echo "<style>#wpadminbar #wp-admin-bar-jetpack-beta_admin_bar { background: #00BE28; }</style>";
 		}
 
 		$args = array(
