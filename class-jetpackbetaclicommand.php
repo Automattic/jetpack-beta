@@ -23,7 +23,7 @@ if ( defined( 'WP_CLI' ) && WP_CLI ) {
 		 */
 		public function branch( $args ) {
 
-			$this->validation_checks($args);
+			$this->validation_checks( $args );
 				
 			if ( 'master' === $args[1] ) {
 				$retvalue = Jetpack_Beta::install_and_activate( 'master', 'master' );
@@ -39,7 +39,7 @@ if ( defined( 'WP_CLI' ) && WP_CLI ) {
 				}
 				return WP_CLI::success( __( 'Jetpack is currently on Latest Stable', 'jetpack-beta' ) );
 			}
-			return WP_CLI::error( __( 'Unrecognized version', 'jetpack' ) );
+			return WP_CLI::error( __( 'Unrecognized branch version. ', 'jetpack' ) );
 		}
 
 		private function validation_checks($args) {
@@ -51,12 +51,15 @@ if ( defined( 'WP_CLI' ) && WP_CLI ) {
 				return WP_CLI::error( __( 'Specify subcommand', 'jetpack' ) );
 			}
 
-			if ( 'activate' !== $args[0] || empty( $args[1] ) ) {
-				WP_CLI::error( __( 'Passed arguments are not valid. Check usage examples', 'jetpack' ) );				
+			if ( 'activate' !== $args[0] ) {
+				return WP_CLI::error( __( 'Only "activate" subcommand is supported', 'jetpack' ) );				
+			}
+
+			if ( empty( $args[1] ) ) {
+				return WP_CLI::error( __( 'Specify branch name', 'jetpack' ) );				
 			}
 		}
 	}
 
 	WP_CLI::add_command( 'jetpack-beta', 'JetpackBetaCliCommand' );
-
 }
