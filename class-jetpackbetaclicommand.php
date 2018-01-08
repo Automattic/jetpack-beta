@@ -29,12 +29,12 @@ if ( defined( 'WP_CLI' ) && WP_CLI ) {
 
 			if ( 'list' === $args[0] ) {
 				$manifest = Jetpack_Beta::get_beta_manifest();
-				$branches = ['stable', 'master', 'rc'];
-				foreach(get_object_vars($manifest->pr) as $key)
+				$branches = [ 'stable', 'master', 'rc' ];
+				foreach(get_object_vars( $manifest->pr ) as $key )
 					{
 						$branches[] = $key->branch;
 					}
-				return WP_CLI::line( 'Available branches: ' . join(', ', $branches) );
+				return WP_CLI::line( 'Available branches: ' . join( ', ', $branches ) );
 			}
 				
 			if ( 'master' === $args[1] ) {
@@ -43,8 +43,8 @@ if ( defined( 'WP_CLI' ) && WP_CLI ) {
 				return $this->install_jetpack( 'stable', 'stable' );
 			} else {
 				$branch_name = str_replace( '/', '_', $args[1] ); 
-				$url = Jetpack_Beta::get_install_url($branch_name, 'pr');
-				if ( $url === null) {
+				$url = Jetpack_Beta::get_install_url( $branch_name, 'pr' );
+				if ( $url === null ) {
 					return WP_CLI::error( __( 'Invalid branch name. Try `wp jetpack-beta branch list` for list of available branches', 'jetpack' ) );
 				}
 				return $this->install_jetpack( $branch_name, 'pr' );
@@ -71,9 +71,9 @@ if ( defined( 'WP_CLI' ) && WP_CLI ) {
 		}
 
 		private function install_jetpack($branch, $section) {
-			$retvalue = Jetpack_Beta::install_and_activate( $branch, $section  );
-			if ( is_wp_error( $retvalue ) ) {
-				return WP_CLI::error( __( 'Error', 'jetpack' ) . $retvalue->get_error_message() );
+			$result = Jetpack_Beta::install_and_activate( $branch, $section  );
+			if ( is_wp_error( $result ) ) {
+				return WP_CLI::error( __( 'Error', 'jetpack' ) . $result->get_error_message() );
 			}
 			return WP_CLI::success( __( 'Jetpack is currently on ' . $branch . ' branch', 'jetpack-beta' ) );
 		}
