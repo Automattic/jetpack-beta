@@ -87,7 +87,6 @@ class Jetpack_Beta {
 
 		add_action( 'admin_bar_menu', array( $this, 'admin_bar_menu' ) );
 		add_action( 'deactivate_plugin', array( $this, 'plugin_deactivated' ) , 10, 2 );
-		add_action( 'deleted_plugin', array( $this, 'deleted_plugin' ), 10, 2 );
 
 		add_action( 'upgrader_process_complete', array( $this, 'upgrader_process_complete' ), 10, 2 );
 
