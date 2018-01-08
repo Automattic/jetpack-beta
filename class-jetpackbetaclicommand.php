@@ -30,7 +30,7 @@ if ( defined( 'WP_CLI' ) && WP_CLI ) {
 			if ( 'list' === $args[0] ) {
 				$manifest = Jetpack_Beta::get_beta_manifest();
 				$branches = [ 'stable', 'master', 'rc' ];
-				foreach(get_object_vars( $manifest->pr ) as $key )
+				foreach( get_object_vars( $manifest->pr ) as $key )
 					{
 						$branches[] = $key->branch;
 					}
