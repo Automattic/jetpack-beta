@@ -13,7 +13,7 @@ if ( defined( 'WP_CLI' ) && WP_CLI ) {
 		 * activate master: Get a version of the master branch built every 15 minutes
 		 * activate stable: Get the latest stable version of Jetpack
 		 * activate branch_name: Get a version of PR. PR must be built and unit-tested before it become availabe
-		 * activate list: Get list of available jetpack branches to install 
+		 * list: Get list of available jetpack branches to install 
 		 * 
 		 * ## EXAMPLES
 		 *
