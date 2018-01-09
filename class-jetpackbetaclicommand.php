@@ -84,7 +84,7 @@ if ( defined( 'WP_CLI' ) && WP_CLI ) {
 			sort($branches);
 			WP_CLI::line( 'Available branches: ');
 			foreach( $branches as $branch ) {
-				WP_CLI::line( $current_branch == $branch ? '* ' . $branch : $branch );
+				WP_CLI::line( $current_branch == $branch ? '* ' . $branch : '  ' . $branch );
 			}
 		}
 	}
