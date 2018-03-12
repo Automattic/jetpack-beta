@@ -1093,6 +1093,12 @@ class Jetpack_Beta {
 			if ( ! file_exists( $source. 'jetpack.php' ) ) {
 				return new WP_Error( 'plugin_file_does_not_exist', __( 'Main Plugin File does not exist', 'jetpack-beta' ) );
 			}
+			if ( ! file_exists( $source. '_inc/build/static.html' ) ) {
+				return new WP_Error( 'static_admin_page_does_not_exist', __( 'Static Admin Page File does not exist', 'jetpack-beta' ) );
+			}
+			if ( ! file_exists( $source. '_inc/build/admin.js' ) ) {
+				return new WP_Error( 'admin_page_does_not_exist', __( 'Admin Page File does not exist', 'jetpack-beta' ) );
+			}
 		}
 
 		return $source;
