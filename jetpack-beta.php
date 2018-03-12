@@ -1091,7 +1091,7 @@ class Jetpack_Beta {
 	static function check_for_main_file( $source, $remote_source ) {
 		if ( $source === $remote_source . '/jetpack-dev/' ) {
 			if ( ! file_exists( $source. 'jetpack.php' ) ) {
-				return new WP_Error( 'plugin_file_does_not_exits', __( 'Main Plugin File does not exist', 'jetpack-beta' ) );
+				return new WP_Error( 'plugin_file_does_not_exist', __( 'Main Plugin File does not exist', 'jetpack-beta' ) );
 			}
 		}
 
