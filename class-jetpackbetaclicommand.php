@@ -31,9 +31,9 @@ if ( defined( 'WP_CLI' ) && WP_CLI ) {
 				return $this->branches_list();
 			}
 			
-			$branches = array('master', 'stable', 'rc');
+			$branches = array( 'master', 'stable', 'rc' );
 
-			if (in_array($args[1], $branches)) {
+			if ( in_array( $args[1], $branches)) {
 				return $this->install_jetpack( $args[1], $args[1] );
 			} else {
 				$branch_name = str_replace( '/', '_', $args[1] ); 
