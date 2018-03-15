@@ -82,8 +82,8 @@ class Jetpack_Beta_Admin {
 
 		// Toggle autoupdates
 		if ( self::is_toggle_action( 'autoupdates' ) ) {
-			$autoupdate = (bool) Jetpack_Beta::is_set_to_autoupdate() ;
-			update_option( 'jp_beta_autoupdate',(int) ! $autoupdate );
+			$autoupdate = (bool) Jetpack_Beta::is_set_to_autoupdate();
+			update_option( 'jp_beta_autoupdate', (int) ! $autoupdate );
 
 			if ( Jetpack_Beta::is_set_to_autoupdate() ) {
 				Jetpack_Beta::maybe_schedule_autoupdate();
@@ -101,9 +101,9 @@ class Jetpack_Beta_Admin {
 	static function is_toggle_action( $option ) {
 		return (
 			isset( $_GET['_nonce'] ) &&
-			wp_verify_nonce( $_GET['_nonce'], 'enable_' .$option ) &&
+			wp_verify_nonce( $_GET['_nonce'], 'enable_' . $option ) &&
 			isset( $_GET['_action'] ) &&
-			'toggle_enable_' . $option === $_GET[ '_action' ]
+			'toggle_enable_' . $option === $_GET['_action']
 		);
 	}
 
