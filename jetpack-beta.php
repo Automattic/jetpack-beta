@@ -328,7 +328,20 @@ class Jetpack_Beta {
 
 		if ( self::get_plugin_slug() === JETPACK_DEV_PLUGIN_SLUG ) {
 			// Highlight the menu if you are running the BETA Versions..
-			echo "<style>#wpadminbar #wp-admin-bar-jetpack-beta_admin_bar { background: #00BE28; }</style>";
+			$color = '#00BE28';
+
+			list( $branch, $section ) = self::get_branch_and_section_dev();
+			if ( 'master' == $section ) {
+				$color = '#EFB753';
+			}
+			if ( 'pr' == $section ) {
+				$color = '#d94f4f';
+			}
+			if ( 'rc' == $section ) {
+				$color = '#b1eed0';
+			}
+
+			echo "<style>#wpadminbar #wp-admin-bar-jetpack-beta_admin_bar { background: $color; }</style>";
 		}
 
 		$args = array(
