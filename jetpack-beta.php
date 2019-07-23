@@ -1104,6 +1104,10 @@ class Jetpack_Beta {
 		$message .= ' - ' . implode( "\n - ", $log );
 		$message .= "\n\n";
 
+		// Adds To test section. for PR's it's a PR description, for master/RC - it's a to_test.md file contents.
+		$message .= Jetpack_Beta_Admin::to_test_content();
+		$message .= "\n\n";
+
 		wp_mail( $admin_email, $subject, $message );
 	}
 
