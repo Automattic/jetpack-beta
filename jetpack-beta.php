@@ -1126,10 +1126,10 @@ class Jetpack_Beta {
 	 * @param Array $whitelist List of whitelisted options to sync
 	 */
 	public function add_to_options_whitelist( $whitelist ) {
-		$whitelist[] = $self::$option;
-		$whitelist[] = $self::$option_dev_installed;
-		$whitelist[] = $self::$option_autoupdate;
-		$whitelist[] = $self::$option_email_notif;
+		$whitelist[] = self::$option;
+		$whitelist[] = self::$option_dev_installed;
+		$whitelist[] = self::$option_autoupdate;
+		$whitelist[] = self::$option_email_notif;
 		return $whitelist;
 	}
 }
