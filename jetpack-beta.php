@@ -1049,6 +1049,10 @@ class Jetpack_Beta {
 		if ( empty( $admin_email ) ) {
 			return;
 		}
+
+		// In case the code is called in a scope different from wp-admin.
+		require_once JPBETA__PLUGIN_DIR . 'jetpack-beta-admin.php';
+
 		// Calling empty() on a function return value crashes in PHP < 5.5.
 		// Thus we assign the return value explicitly and then check with empty().
 		$bloginfo_name = get_bloginfo( 'name' );
