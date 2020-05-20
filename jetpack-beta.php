@@ -55,6 +55,8 @@ define( 'JETPACK_DEV_PLUGIN_FILE', 'jetpack-dev/jetpack.php' );
 
 define( 'JETPACK_BETA_REPORT_URL', 'https://jetpack.com/contact-support/beta-group/' );
 
+define( 'JETPACK_GREEN', '#069e08');
+
 
 require_once 'autoupdate-self.php';
 require_once 'class-jetpackbetaclicommand.php';
@@ -333,7 +335,7 @@ class Jetpack_Beta {
 
 		if ( self::get_plugin_slug() === JETPACK_DEV_PLUGIN_SLUG ) {
 			// Highlight the menu if you are running the BETA Versions..
-			echo "<style>#wpadminbar #wp-admin-bar-jetpack-beta_admin_bar { background: #00BE28; }</style>";
+			echo sprintf( "<style>#wpadminbar #wp-admin-bar-jetpack-beta_admin_bar { background: %s; }</style>", JETPACK_GREEN );
 		}
 
 		$args = array(
