@@ -38,7 +38,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 define( 'JPBETA__PLUGIN_FOLDER',  basename( dirname( __FILE__ ) ) );
 define( 'JPBETA__PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 define( 'JPBETA__PLUGIN_FILE', __FILE__ );
-define( 'JPBETA_VERSION', '2.4.3' );
+define( 'JPBETA_VERSION', '2.4.4' );
 
 define( 'JPBETA_DEFAULT_BRANCH', 'rc_only' );
 
