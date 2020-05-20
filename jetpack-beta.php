@@ -55,7 +55,7 @@ define( 'JETPACK_DEV_PLUGIN_FILE', 'jetpack-dev/jetpack.php' );
 
 define( 'JETPACK_BETA_REPORT_URL', 'https://jetpack.com/contact-support/beta-group/' );
 
-defined( 'JETPACK_GREEN' ) || define( 'JETPACK_GREEN', '#069e08');
+defined( 'JETPACK_GREEN' ) || define( 'JETPACK_GREEN', '#069e08' );
 
 
 require_once 'autoupdate-self.php';
