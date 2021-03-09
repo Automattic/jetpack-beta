@@ -7,6 +7,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Created a changelog from the git history with help from [auto-changelog](https://www.npmjs.com/package/auto-changelog). It could probably use cleanup!
 
+### Changed
+- Remove composer dev-monorepo hack.
+
 ## 2.4.6 - 2021-02-08
 
 - Prevents updating stable version of Jetpack when using beta plugin in Docker instance.
