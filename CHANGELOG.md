@@ -1,6 +1,6 @@
 # Changelog
 
-## 2.4.7-alpha - 2021-03-10
+## 2.4.7-alpha - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
@@ -9,6 +9,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Remove composer dev-monorepo hack.
+- Update package dependencies.
 
 ## 2.4.6 - 2021-02-08
 
