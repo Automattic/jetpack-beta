@@ -1,6 +1,6 @@
 # Changelog
 
-## 2.4.7-alpha - 2021-03-09
+## 2.4.7-alpha - 2021-03-10
 
 This is an alpha version! The changes listed here are not final.
 
