@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 - Improve release instructions
 - Remove composer dev-monorepo hack.
 - update colors to match upcoming WP 5.7 color changes
+- Updated package dependencies.
 - Update package dependencies.
 
 ## 2.4.6 - 2021-02-08
