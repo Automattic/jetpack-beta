@@ -1,11 +1,12 @@
 # Changelog
 
-## 2.4.7-alpha - unreleased
+## 2.5.0-alpha - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Created a changelog from the git history with help from [auto-changelog](https://www.npmjs.com/package/auto-changelog). It could probably use cleanup!
+- Testing Tips: Add tips to help testers get started.
 
 ### Changed
 - Improve release instructions
