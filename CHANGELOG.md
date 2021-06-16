@@ -10,6 +10,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Improve release instructions
+- Load markdown library from either a dev or stable version of Jetpack.
 - Remove composer dev-monorepo hack.
 - update colors to match upcoming WP 5.7 color changes
 - Updated package dependencies.
