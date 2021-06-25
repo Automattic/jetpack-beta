@@ -1,6 +1,6 @@
 # Changelog
 
-## 2.5.0-alpha - unreleased
+## 3.0.0-alpha - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 - Improve release instructions
 - Load markdown library from either a dev or stable version of Jetpack.
 - Remove composer dev-monorepo hack.
+- Reorganized the code. Most notably, all the classes were renamed. The user interfaces remain the same, though.
 - update colors to match upcoming WP 5.7 color changes
 - Updated package dependencies.
 - Update package dependencies.
