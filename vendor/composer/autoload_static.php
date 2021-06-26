@@ -6,18 +6,39 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit567fa3f555de8fd218dfdc1688bb97b5_betaⓥ3_0_0_alpha
 {
+    public static $prefixLengthsPsr4 = array (
+        'A' => 
+        array (
+            'Automattic\\Jetpack\\Autoloader\\' => 30,
+        ),
+    );
+
+    public static $prefixDirsPsr4 = array (
+        'Automattic\\Jetpack\\Autoloader\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/automattic/jetpack-autoloader/src',
+        ),
+    );
+
     public static $classMap = array (
         'Automattic\\JetpackBeta\\Admin' => __DIR__ . '/../..' . '/src/class-admin.php',
         'Automattic\\JetpackBeta\\AutoupdateSelf' => __DIR__ . '/../..' . '/src/class-autoupdateself.php',
         'Automattic\\JetpackBeta\\CliCommand' => __DIR__ . '/../..' . '/src/class-clicommand.php',
         'Automattic\\JetpackBeta\\Hooks' => __DIR__ . '/../..' . '/src/class-hooks.php',
         'Automattic\\JetpackBeta\\Utils' => __DIR__ . '/../..' . '/src/class-utils.php',
+        'Automattic\\Jetpack\\Autoloader\\AutoloadFileWriter' => __DIR__ . '/..' . '/automattic/jetpack-autoloader/src/AutoloadFileWriter.php',
+        'Automattic\\Jetpack\\Autoloader\\AutoloadGenerator' => __DIR__ . '/..' . '/automattic/jetpack-autoloader/src/AutoloadGenerator.php',
+        'Automattic\\Jetpack\\Autoloader\\AutoloadProcessor' => __DIR__ . '/..' . '/automattic/jetpack-autoloader/src/AutoloadProcessor.php',
+        'Automattic\\Jetpack\\Autoloader\\CustomAutoloaderPlugin' => __DIR__ . '/..' . '/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php',
+        'Automattic\\Jetpack\\Autoloader\\ManifestGenerator' => __DIR__ . '/..' . '/automattic/jetpack-autoloader/src/ManifestGenerator.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
+            $loader->prefixLengthsPsr4 = ComposerStaticInit567fa3f555de8fd218dfdc1688bb97b5_betaⓥ3_0_0_alpha::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit567fa3f555de8fd218dfdc1688bb97b5_betaⓥ3_0_0_alpha::$prefixDirsPsr4;
             $loader->classMap = ComposerStaticInit567fa3f555de8fd218dfdc1688bb97b5_betaⓥ3_0_0_alpha::$classMap;
 
         }, null, ClassLoader::class);

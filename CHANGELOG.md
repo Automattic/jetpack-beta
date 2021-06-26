@@ -20,6 +20,9 @@ This is an alpha version! The changes listed here are not final.
 ### Removed
 - Remove the jetpack_autoload_dev option and the JETPACK_AUTOLOAD_DEV constant update
 
+### Fixed
+- Fix autoloader issue in prodution build
+
 ## 2.4.6 - 2021-02-08
 
 - Prevents updating stable version of Jetpack when using beta plugin in Docker instance.
