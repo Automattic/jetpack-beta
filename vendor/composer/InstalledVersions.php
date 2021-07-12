@@ -55,6 +55,24 @@ private static $installed = array (
       ),
       'reference' => NULL,
     ),
+    'composer/semver' => 
+    array (
+      'pretty_version' => '3.2.5',
+      'version' => '3.2.5.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '31f3ea725711245195f62e54ffa402d8ef2fdba9',
+    ),
+    'erusev/parsedown' => 
+    array (
+      'pretty_version' => '1.7.4',
+      'version' => '1.7.4.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'cb17b6477dfff935958ba01325f2e8a2bfa6dab3',
+    ),
   ),
 );
 private static $canGetVendors;
