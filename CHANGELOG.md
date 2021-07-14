@@ -7,6 +7,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Added support for more than just the Jetpack plugin. This involved a major internal code restructuring.
 - Created a changelog from the git history with help from [auto-changelog](https://www.npmjs.com/package/auto-changelog). It could probably use cleanup!
+- Provide a soft failure if activating an unbuilt development version of the Beta plugin
 - Testing Tips: Add tips to help testers get started.
 
 ### Changed
