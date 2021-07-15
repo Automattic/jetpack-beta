@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 - Testing Tips: Add tips to help testers get started.
 
 ### Changed
+- Enable autotagger and update release instructions.
 - Improve release instructions
 - Load markdown library from either a dev or stable version of Jetpack.
 - Remove composer dev-monorepo hack.
