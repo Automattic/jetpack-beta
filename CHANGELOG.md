@@ -1,5 +1,12 @@
 # Changelog
 
+## 3.0.1-alpha - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Fixed
+- Correctly handle self-autoupgrades when the release tag begins with "v".
+
 ## 3.0.0 - 2021-07-14
 ### Added
 - Added support for more than just the Jetpack plugin. This involved a major code restructuring.
