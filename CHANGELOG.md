@@ -4,9 +4,6 @@
 
 This is an alpha version! The changes listed here are not final.
 
-### Added
-- Add small breadcrumb link to get back to the main plugin selection screen.
-
 ### Fixed
 - Correctly handle self-autoupgrades when the release tag begins with "v".
 - Fixes non-breaking JS errors.
