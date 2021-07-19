@@ -1,8 +1,8 @@
 # Changelog
 
-## 3.0.1-alpha - unreleased
-
-This is an alpha version! The changes listed here are not final.
+## 3.0.1 - 2021-07-19
+### Added
+- Add small breadcrumb link to get back to the main plugin selection screen.
 
 ### Fixed
 - Correctly handle self-autoupgrades when the release tag begins with "v".
