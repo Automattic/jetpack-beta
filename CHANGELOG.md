@@ -5,7 +5,6 @@
 This is an alpha version! The changes listed here are not final.
 
 ### Fixed
-- Detect when "Bleeding Edge" needs an update.
 - Fix search when branch name contains multiple `-`.
 - Typo fix.
 
