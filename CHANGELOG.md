@@ -10,6 +10,7 @@ This is an alpha version! The changes listed here are not final.
 ### Fixed
 - Detect when "Bleeding Edge" needs an update.
 - Fix search when branch name contains multiple `-`.
+- Guard against an undefined index warning.
 - Typo fix.
 
 ## 3.0.1 - 2021-07-19
