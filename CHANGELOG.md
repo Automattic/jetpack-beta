@@ -4,6 +4,9 @@
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- Use WP core's ajax updater to apply updates.
+
 ### Fixed
 - Detect when "Bleeding Edge" needs an update.
 - Fix search when branch name contains multiple `-`.
