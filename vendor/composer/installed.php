@@ -18,7 +18,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'f5efbc823c85e3d0f937424b810afedbdc5eb8bf',
+      'reference' => '416ff1cfae2b3d8a5246cb91b47eba7d38fda098',
     ),
     'automattic/jetpack-beta' => 
     array (
