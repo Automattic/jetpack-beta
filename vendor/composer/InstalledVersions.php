@@ -44,7 +44,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '416ff1cfae2b3d8a5246cb91b47eba7d38fda098',
+      'reference' => 'e9f989a8c91be8f7ea0b0e4071586de005fb597c',
     ),
     'automattic/jetpack-beta' => 
     array (
