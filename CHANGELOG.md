@@ -4,6 +4,9 @@
 
 This is an alpha version! The changes listed here are not final.
 
+### Changed
+- Update package dependencies
+
 ## 3.0.2 - 2021-07-29
 ### Added
 - Use WP core's ajax updater to apply updates.
