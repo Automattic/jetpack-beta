@@ -1,13 +1,8 @@
 # Changelog
 
-## 3.0.3-alpha - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## 3.0.3 - 2021-10-06
 ### Changed
-- Updated package dependencies
 - Updated package dependencies.
-- Update package dependencies
 
 ### Fixed
 - Remove unused variable in plugin-select.template.php.
