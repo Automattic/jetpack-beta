@@ -1,3 +1,7 @@
+# Automatically generated rules.
+/.git*	export-ignore
+
+# Package attributes file.
 # Files to include in mirror repo: Automattic/vaultpress
 vendor/autoload.php                         production-include
 vendor/autoload_packages.php                production-include

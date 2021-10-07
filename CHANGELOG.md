@@ -4,6 +4,9 @@
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- Added an action to auto-create a GitHub release when a version is tagged.
+
 ## 3.0.3 - 2021-10-06
 ### Changed
 - Updated package dependencies.
