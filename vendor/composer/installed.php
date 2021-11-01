@@ -29,12 +29,12 @@
             'dev_requirement' => false,
         ),
         'composer/semver' => array(
-            'pretty_version' => '3.2.5',
-            'version' => '3.2.5.0',
+            'pretty_version' => '3.2.6',
+            'version' => '3.2.6.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/./semver',
             'aliases' => array(),
-            'reference' => '31f3ea725711245195f62e54ffa402d8ef2fdba9',
+            'reference' => '83e511e247de329283478496f7a1e114c9517506',
             'dev_requirement' => false,
         ),
         'erusev/parsedown' => array(
