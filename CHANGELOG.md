@@ -10,6 +10,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Updated Beta release instructions to avoid extra MacOS files in the ZIP.
 - Updated package dependencies
+- Updated package dependencies
 
 ## 3.0.3 - 2021-10-06
 ### Changed
