@@ -1,11 +1,12 @@
 # Changelog
 
-## 3.0.4-alpha - unreleased
+## 3.1.0-alpha - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Added an action to auto-create a GitHub release when a version is tagged.
+- Improved exception handling when network access to a8c servers is impaired.
 
 ### Changed
 - Updated Beta release instructions to avoid extra MacOS files in the ZIP.
