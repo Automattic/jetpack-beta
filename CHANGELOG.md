@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.1.1-alpha - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
 ## 3.1.0 - 2021-12-08
 ### Added
 - Added an action to auto-create a GitHub release when a version is tagged.
