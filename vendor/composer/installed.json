@@ -7,7 +7,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-autoloader",
-                "reference": "786ed08162ddfa1f7b4a2a18877a54f27464cf5e"
+                "reference": "0b4bdbf691749144d51439dd6e79e3cf5bcf24f0"
             },
             "require": {
                 "composer-plugin-api": "^1.1 || ^2.0"
@@ -43,7 +43,7 @@
                 ],
                 "test-coverage": [
                     "@composer update",
-                    "phpdbg -d memory_limit=2048M -d max_execution_time=900 -qrr ./vendor/bin/phpunit --coverage-php \"./tests/php/tmp/coverage-report.php\"",
+                    "php -dpcov.directory=. ./vendor/bin/phpunit --coverage-php \"./tests/php/tmp/coverage-report.php\"",
                     "php ./tests/php/bin/test-coverage.php \"$COVERAGE_DIR/clover.xml\""
                 ],
                 "test-php": [
