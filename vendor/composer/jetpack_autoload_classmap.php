@@ -7,51 +7,51 @@ $baseDir   = dirname($vendorDir);
 
 return array(
 	'Composer\\Semver\\VersionParser' => array(
-		'version' => '3.2.6.0',
+		'version' => '3.2.7.0',
 		'path'    => $vendorDir . '/composer/semver/src/VersionParser.php'
 	),
 	'Composer\\Semver\\CompilingMatcher' => array(
-		'version' => '3.2.6.0',
+		'version' => '3.2.7.0',
 		'path'    => $vendorDir . '/composer/semver/src/CompilingMatcher.php'
 	),
 	'Composer\\Semver\\Intervals' => array(
-		'version' => '3.2.6.0',
+		'version' => '3.2.7.0',
 		'path'    => $vendorDir . '/composer/semver/src/Intervals.php'
 	),
 	'Composer\\Semver\\Semver' => array(
-		'version' => '3.2.6.0',
+		'version' => '3.2.7.0',
 		'path'    => $vendorDir . '/composer/semver/src/Semver.php'
 	),
 	'Composer\\Semver\\Interval' => array(
-		'version' => '3.2.6.0',
+		'version' => '3.2.7.0',
 		'path'    => $vendorDir . '/composer/semver/src/Interval.php'
 	),
 	'Composer\\Semver\\Comparator' => array(
-		'version' => '3.2.6.0',
+		'version' => '3.2.7.0',
 		'path'    => $vendorDir . '/composer/semver/src/Comparator.php'
 	),
 	'Composer\\Semver\\Constraint\\ConstraintInterface' => array(
-		'version' => '3.2.6.0',
+		'version' => '3.2.7.0',
 		'path'    => $vendorDir . '/composer/semver/src/Constraint/ConstraintInterface.php'
 	),
 	'Composer\\Semver\\Constraint\\MultiConstraint' => array(
-		'version' => '3.2.6.0',
+		'version' => '3.2.7.0',
 		'path'    => $vendorDir . '/composer/semver/src/Constraint/MultiConstraint.php'
 	),
 	'Composer\\Semver\\Constraint\\Bound' => array(
-		'version' => '3.2.6.0',
+		'version' => '3.2.7.0',
 		'path'    => $vendorDir . '/composer/semver/src/Constraint/Bound.php'
 	),
 	'Composer\\Semver\\Constraint\\Constraint' => array(
-		'version' => '3.2.6.0',
+		'version' => '3.2.7.0',
 		'path'    => $vendorDir . '/composer/semver/src/Constraint/Constraint.php'
 	),
 	'Composer\\Semver\\Constraint\\MatchAllConstraint' => array(
-		'version' => '3.2.6.0',
+		'version' => '3.2.7.0',
 		'path'    => $vendorDir . '/composer/semver/src/Constraint/MatchAllConstraint.php'
 	),
 	'Composer\\Semver\\Constraint\\MatchNoneConstraint' => array(
-		'version' => '3.2.6.0',
+		'version' => '3.2.7.0',
 		'path'    => $vendorDir . '/composer/semver/src/Constraint/MatchNoneConstraint.php'
 	),
 	'Automattic\\Jetpack\\Autoloader\\CustomAutoloaderPlugin' => array(
