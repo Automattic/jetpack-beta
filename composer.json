@@ -21,7 +21,6 @@
 			"src/"
 		]
 	},
-	"repositories": [],
 	"minimum-stability": "dev",
 	"prefer-stable": true,
 	"config": {
