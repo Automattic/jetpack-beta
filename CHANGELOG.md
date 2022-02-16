@@ -7,6 +7,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Added docs to JS file.
 
+### Changed
+- Updated composer.lock
+
 ## 3.1.0 - 2021-12-08
 ### Added
 - Added an action to auto-create a GitHub release when a version is tagged.
