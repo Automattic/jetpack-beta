@@ -7,6 +7,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Updated package dependencies.
 
+### Fixed
+- Ensure that WP CLI is present before extending the class.
+
 ## 3.1.1 - 2022-03-01
 ### Added
 - Added docs to JS file.
