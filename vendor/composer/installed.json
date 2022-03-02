@@ -2,12 +2,12 @@
     "packages": [
         {
             "name": "automattic/jetpack-autoloader",
-            "version": "2.10.x-dev",
-            "version_normalized": "2.10.9999999.9999999-dev",
+            "version": "2.11.x-dev",
+            "version_normalized": "2.11.9999999.9999999-dev",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-autoloader",
-                "reference": "1cb6c910589d6ec8a926c1ef26b7ed2833196970"
+                "reference": "06dff0bec5b9071264452a3a523227945c2f1961"
             },
             "require": {
                 "composer-plugin-api": "^1.1 || ^2.0"
@@ -25,7 +25,7 @@
                     "link-template": "https://github.com/Automattic/jetpack-autoloader/compare/v${old}...v${new}"
                 },
                 "branch-alias": {
-                    "dev-master": "2.10.x-dev"
+                    "dev-master": "2.11.x-dev"
                 }
             },
             "installation-source": "dist",

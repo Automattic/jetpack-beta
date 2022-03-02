@@ -5,7 +5,7 @@
  * @package automattic/jetpack-autoloader
  */
 
-namespace Automattic\Jetpack\Autoloader\jp567fa3f555de8fd218dfdc1688bb97b5_betaⓥ3_1_1;
+namespace Automattic\Jetpack\Autoloader\jp567fa3f555de8fd218dfdc1688bb97b5_betaⓥ3_1_2_alpha;
 
  // phpcs:ignore
 
@@ -84,6 +84,13 @@ class Autoloader {
 
 		// Register a shutdown handler to clean up the autoloader.
 		$hook_manager->add_action( 'shutdown', new Shutdown_Handler( $plugins_handler, $cached_plugins, $was_included_by_autoloader ) );
+
+		// Register an upgrade handler to handle plugin upgrades.
+		$upgrade_handler = new Upgrade_Handler();
+		$hook_manager->add_filter( 'upgrader_pre_install', array( $upgrade_handler, 'upgrader_pre_install' ), 10, 2 );
+		// wp-cli never fires `delete_plugin` but always fires `pre_uninstall_plugin`, while core only conditionally fires `pre_uninstall_plugin` but always fires `delete_plugin`.
+		$hook_manager->add_action( 'delete_plugin', array( $upgrade_handler, 'delete_plugin' ), 10, 1 );
+		$hook_manager->add_action( 'pre_uninstall_plugin', array( $upgrade_handler, 'delete_plugin' ), 10, 1 );
 
 		// phpcs:enable Generic.Commenting.DocComment.MissingShort
 	}

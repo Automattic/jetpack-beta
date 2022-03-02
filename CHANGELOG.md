@@ -1,5 +1,12 @@
 # Changelog
 
+## 3.1.2-alpha - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Changed
+- Updated package dependencies.
+
 ## 3.1.1 - 2022-03-01
 ### Added
 - Added docs to JS file.
