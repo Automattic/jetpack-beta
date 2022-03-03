@@ -8,6 +8,7 @@ This is an alpha version! The changes listed here are not final.
 - Updated package dependencies.
 
 ### Fixed
+- Download from the correct URL when updating to a version tagged like "v3.1.1" rather than "3.1.1".
 - Ensure that WP CLI is present before extending the class.
 
 ## 3.1.1 - 2022-03-01
