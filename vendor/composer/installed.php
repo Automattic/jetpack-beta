@@ -16,7 +16,7 @@
             'type' => 'composer-plugin',
             'install_path' => __DIR__ . '/../automattic/jetpack-autoloader',
             'aliases' => array(),
-            'reference' => 'c202c2d88e44b34bd396ffaf0c9933fa1af80596',
+            'reference' => 'ead215c9b3bfed3e5cc7105dc827830f45de3c84',
             'dev_requirement' => false,
         ),
         'automattic/jetpack-beta' => array(
