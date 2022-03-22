@@ -7,7 +7,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-autoloader",
-                "reference": "fb28697a1b02ae54fb83ed068e96d75b724067d5"
+                "reference": "ea9a4da5503f2dd80919b504861e151eb11ab8dd"
             },
             "require": {
                 "composer-plugin-api": "^1.1 || ^2.0"
