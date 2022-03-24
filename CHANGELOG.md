@@ -4,6 +4,9 @@
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- Set `Update URI` in the plugin header.
+
 ### Changed
 - Updated package dependencies
 - Updated package dependencies.
