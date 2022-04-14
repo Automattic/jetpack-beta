@@ -8,6 +8,7 @@ This is an alpha version! The changes listed here are not final.
 - Set `Update URI` in the plugin header.
 
 ### Changed
+- PHPCS: Fix `WordPress.Security.ValidatedSanitizedInput`
 - Updated package dependencies
 - Updated package dependencies.
 
