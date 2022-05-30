@@ -9,7 +9,6 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - PHPCS: Fix `WordPress.Security.ValidatedSanitizedInput`
-- Updated package dependencies
 - Updated package dependencies.
 
 ### Fixed
