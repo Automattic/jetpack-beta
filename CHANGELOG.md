@@ -5,6 +5,7 @@
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Adding trunk branch cases in preparation for monorepo branch renaming
 - Set `Update URI` in the plugin header.
 
 ### Changed
