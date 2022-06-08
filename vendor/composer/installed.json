@@ -2,12 +2,18 @@
     "packages": [
         {
             "name": "automattic/jetpack-autoloader",
-            "version": "2.11.x-dev",
-            "version_normalized": "2.11.9999999.9999999-dev",
+            "version": "v2.11.5",
+            "version_normalized": "2.11.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Automattic/jetpack-autoloader.git",
+                "reference": "664c7cf0ff94b4f2f7c5b359bef3616822004a04"
+            },
             "dist": {
-                "type": "path",
-                "url": "/tmp/jetpack-build/Automattic/jetpack-autoloader",
-                "reference": "92d9f7517652a85dae9752d77cba1e3139172456"
+                "type": "zip",
+                "url": "https://api.github.com/repos/Automattic/jetpack-autoloader/zipball/664c7cf0ff94b4f2f7c5b359bef3616822004a04",
+                "reference": "664c7cf0ff94b4f2f7c5b359bef3616822004a04",
+                "shasum": ""
             },
             "require": {
                 "composer-plugin-api": "^1.1 || ^2.0"
@@ -16,6 +22,7 @@
                 "automattic/jetpack-changelogger": "^3.1",
                 "yoast/phpunit-polyfills": "1.0.3"
             },
+            "time": "2022-05-18T11:11:44+00:00",
             "type": "composer-plugin",
             "extra": {
                 "autotagger": true,
@@ -30,31 +37,20 @@
             },
             "installation-source": "dist",
             "autoload": {
-                "classmap": [
-                    "src/AutoloadGenerator.php"
-                ],
                 "psr-4": {
                     "Automattic\\Jetpack\\Autoloader\\": "src"
-                }
-            },
-            "scripts": {
-                "phpunit": [
-                    "./vendor/phpunit/phpunit/phpunit --colors=always"
-                ],
-                "test-coverage": [
-                    "php -dpcov.directory=. ./vendor/bin/phpunit --coverage-php \"./tests/php/tmp/coverage-report.php\"",
-                    "php ./tests/php/bin/test-coverage.php \"$COVERAGE_DIR/clover.xml\""
-                ],
-                "test-php": [
-                    "@composer phpunit"
+                },
+                "classmap": [
+                    "src/AutoloadGenerator.php"
                 ]
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
             "description": "Creates a custom autoloader for a plugin or theme.",
-            "transport-options": {
-                "relative": false
+            "support": {
+                "source": "https://github.com/Automattic/jetpack-autoloader/tree/v2.11.5"
             },
             "install-path": "../automattic/jetpack-autoloader"
         },
