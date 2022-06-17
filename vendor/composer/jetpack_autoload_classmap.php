@@ -79,35 +79,35 @@ return array(
 		'path'    => $vendorDir . '/erusev/parsedown/Parsedown.php'
 	),
 	'Automattic\\JetpackBeta\\Admin' => array(
-		'version' => 'dev-master',
+		'version' => 'dev-trunk',
 		'path'    => $baseDir . '/src/class-admin.php'
 	),
 	'Automattic\\JetpackBeta\\Plugin' => array(
-		'version' => 'dev-master',
+		'version' => 'dev-trunk',
 		'path'    => $baseDir . '/src/class-plugin.php'
 	),
 	'Automattic\\JetpackBeta\\CliCommand' => array(
-		'version' => 'dev-master',
+		'version' => 'dev-trunk',
 		'path'    => $baseDir . '/src/class-clicommand.php'
 	),
 	'Automattic\\JetpackBeta\\AutoupdateSelf' => array(
-		'version' => 'dev-master',
+		'version' => 'dev-trunk',
 		'path'    => $baseDir . '/src/class-autoupdateself.php'
 	),
 	'Automattic\\JetpackBeta\\Utils' => array(
-		'version' => 'dev-master',
+		'version' => 'dev-trunk',
 		'path'    => $baseDir . '/src/class-utils.php'
 	),
 	'Automattic\\JetpackBeta\\Hooks' => array(
-		'version' => 'dev-master',
+		'version' => 'dev-trunk',
 		'path'    => $baseDir . '/src/class-hooks.php'
 	),
 	'Automattic\\JetpackBeta\\ParsedownExt' => array(
-		'version' => 'dev-master',
+		'version' => 'dev-trunk',
 		'path'    => $baseDir . '/src/class-parsedownext.php'
 	),
 	'Automattic\\JetpackBeta\\PluginDataException' => array(
-		'version' => 'dev-master',
+		'version' => 'dev-trunk',
 		'path'    => $baseDir . '/src/class-plugindataexception.php'
 	),
 );

@@ -4,6 +4,9 @@
 
 This is an alpha version! The changes listed here are not final.
 
+### Changed
+- Renaming master to trunk.
+
 ## 3.1.2 - 2022-06-08
 ### Added
 - Adding trunk branch cases in preparation for monorepo branch renaming
