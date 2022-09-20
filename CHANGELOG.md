@@ -1,12 +1,9 @@
 # Changelog
 
-## 3.1.3-alpha - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## 3.1.3 - 2022-09-20
 ### Changed
-- Renaming master to trunk.
-- Renaming `master` references to `trunk`
+- Renaming `master` references to `trunk` [#24712]
+- Updated package dependencies.
 
 ## 3.1.2 - 2022-06-08
 ### Added
