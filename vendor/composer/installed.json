@@ -2,12 +2,12 @@
     "packages": [
         {
             "name": "automattic/jetpack-autoloader",
-            "version": "2.11.12-alpha",
-            "version_normalized": "2.11.12.0-alpha",
+            "version": "2.11.12",
+            "version_normalized": "2.11.12.0",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-autoloader",
-                "reference": "26981d246624a08d9bc81f22f7818da0d4554f12"
+                "reference": "6d5be00545529364fa0a81411f456de2d04b63bc"
             },
             "require": {
                 "composer-plugin-api": "^1.1 || ^2.0"

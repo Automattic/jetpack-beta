@@ -11,12 +11,12 @@
     ),
     'versions' => array(
         'automattic/jetpack-autoloader' => array(
-            'pretty_version' => '2.11.12-alpha',
-            'version' => '2.11.12.0-alpha',
+            'pretty_version' => '2.11.12',
+            'version' => '2.11.12.0',
             'type' => 'composer-plugin',
             'install_path' => __DIR__ . '/../automattic/jetpack-autoloader',
             'aliases' => array(),
-            'reference' => '26981d246624a08d9bc81f22f7818da0d4554f12',
+            'reference' => '6d5be00545529364fa0a81411f456de2d04b63bc',
             'dev_requirement' => false,
         ),
         'automattic/jetpack-beta' => array(
