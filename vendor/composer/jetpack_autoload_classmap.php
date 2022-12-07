@@ -6,6 +6,18 @@ $vendorDir = dirname(__DIR__);
 $baseDir   = dirname($vendorDir);
 
 return array(
+	'Autoloader' => array(
+		'version' => '2.11.13.0',
+		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-autoloader.php'
+	),
+	'Autoloader_Handler' => array(
+		'version' => '2.11.13.0',
+		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-autoloader-handler.php'
+	),
+	'Autoloader_Locator' => array(
+		'version' => '2.11.13.0',
+		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-autoloader-locator.php'
+	),
 	'Automattic\\JetpackBeta\\Admin' => array(
 		'version' => 'dev-trunk',
 		'path'    => $baseDir . '/src/class-admin.php'
@@ -106,8 +118,52 @@ return array(
 		'version' => '3.2.7.0',
 		'path'    => $vendorDir . '/composer/semver/src/VersionParser.php'
 	),
+	'Container' => array(
+		'version' => '2.11.13.0',
+		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-container.php'
+	),
+	'Hook_Manager' => array(
+		'version' => '2.11.13.0',
+		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-hook-manager.php'
+	),
+	'Latest_Autoloader_Guard' => array(
+		'version' => '2.11.13.0',
+		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-latest-autoloader-guard.php'
+	),
+	'Manifest_Reader' => array(
+		'version' => '2.11.13.0',
+		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-manifest-reader.php'
+	),
+	'PHP_Autoloader' => array(
+		'version' => '2.11.13.0',
+		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-php-autoloader.php'
+	),
 	'Parsedown' => array(
 		'version' => '1.7.4.0',
 		'path'    => $vendorDir . '/erusev/parsedown/Parsedown.php'
+	),
+	'Path_Processor' => array(
+		'version' => '2.11.13.0',
+		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-path-processor.php'
+	),
+	'Plugin_Locator' => array(
+		'version' => '2.11.13.0',
+		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-plugin-locator.php'
+	),
+	'Plugins_Handler' => array(
+		'version' => '2.11.13.0',
+		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-plugins-handler.php'
+	),
+	'Shutdown_Handler' => array(
+		'version' => '2.11.13.0',
+		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-shutdown-handler.php'
+	),
+	'Version_Loader' => array(
+		'version' => '2.11.13.0',
+		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-version-loader.php'
+	),
+	'Version_Selector' => array(
+		'version' => '2.11.13.0',
+		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-version-selector.php'
 	),
 );
