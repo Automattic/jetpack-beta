@@ -29,9 +29,9 @@
             'dev_requirement' => false,
         ),
         'composer/semver' => array(
-            'pretty_version' => '3.2.7',
-            'version' => '3.2.7.0',
-            'reference' => 'deac27056b57e46faf136fae7b449eeaa71661ee',
+            'pretty_version' => '3.3.2',
+            'version' => '3.3.2.0',
+            'reference' => '3953f23262f2bff1919fc82183ad9acb13ff62c9',
             'type' => 'library',
             'install_path' => __DIR__ . '/./semver',
             'aliases' => array(),
