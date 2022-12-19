@@ -1,13 +1,74 @@
 {
     "packages": [
         {
+            "name": "automattic/jetpack-admin-ui",
+            "version": "0.2.14",
+            "version_normalized": "0.2.14.0",
+            "dist": {
+                "type": "path",
+                "url": "/tmp/jetpack-build/Automattic/jetpack-admin-ui",
+                "reference": "79dd77d0f4c1435777a5aca8bd2ebb309a1736c2"
+            },
+            "require-dev": {
+                "automattic/jetpack-changelogger": "^3.2.3",
+                "automattic/wordbless": "dev-master",
+                "yoast/phpunit-polyfills": "1.0.4"
+            },
+            "type": "jetpack-library",
+            "extra": {
+                "autotagger": true,
+                "mirror-repo": "Automattic/jetpack-admin-ui",
+                "textdomain": "jetpack-admin-ui",
+                "changelogger": {
+                    "link-template": "https://github.com/Automattic/jetpack-admin-ui/compare/${old}...${new}"
+                },
+                "branch-alias": {
+                    "dev-trunk": "0.2.x-dev"
+                },
+                "version-constants": {
+                    "::PACKAGE_VERSION": "src/class-admin-menu.php"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "scripts": {
+                "phpunit": [
+                    "./vendor/phpunit/phpunit/phpunit --colors=always"
+                ],
+                "test-coverage": [
+                    "php -dpcov.directory=. ./vendor/bin/phpunit --coverage-clover \"$COVERAGE_DIR/clover.xml\""
+                ],
+                "test-php": [
+                    "@composer phpunit"
+                ],
+                "post-install-cmd": [
+                    "WorDBless\\Composer\\InstallDropin::copy"
+                ],
+                "post-update-cmd": [
+                    "WorDBless\\Composer\\InstallDropin::copy"
+                ]
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "Generic Jetpack wp-admin UI elements",
+            "transport-options": {
+                "relative": false
+            },
+            "install-path": "../automattic/jetpack-admin-ui"
+        },
+        {
             "name": "automattic/jetpack-autoloader",
             "version": "2.11.14",
             "version_normalized": "2.11.14.0",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-autoloader",
-                "reference": "a83e29dc46af16f01fed65ca95e31550cd0d4975"
+                "reference": "58d86e3d961833dc7efd30d55f094dd3a0327894"
             },
             "require": {
                 "composer-plugin-api": "^1.1 || ^2.0"

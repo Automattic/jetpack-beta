@@ -50,6 +50,10 @@ return array(
 		'version' => 'dev-trunk',
 		'path'    => $baseDir . '/src/class-utils.php'
 	),
+	'Automattic\\Jetpack\\Admin_UI\\Admin_Menu' => array(
+		'version' => '0.2.14.0',
+		'path'    => $vendorDir . '/automattic/jetpack-admin-ui/src/class-admin-menu.php'
+	),
 	'Automattic\\Jetpack\\Autoloader\\AutoloadFileWriter' => array(
 		'version' => '2.11.14.0',
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/AutoloadFileWriter.php'

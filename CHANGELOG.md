@@ -4,6 +4,9 @@
 
 This is an alpha version! The changes listed here are not final.
 
+### Changed
+- Admin menu: ensure that the Jetpack Beta menu always lives under the main Jetpack menu.
+
 ## 3.1.3 - 2022-09-20
 ### Changed
 - Renaming `master` references to `trunk` [#24712]
