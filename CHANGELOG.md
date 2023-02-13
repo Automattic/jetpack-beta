@@ -1,5 +1,12 @@
 # Changelog
 
+## 3.1.5-alpha - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Changed
+- Updated package dependencies.
+
 ## 3.1.4 - 2023-01-11
 ### Changed
 - Admin menu: ensure that the Jetpack Beta menu always lives under the main Jetpack menu.
