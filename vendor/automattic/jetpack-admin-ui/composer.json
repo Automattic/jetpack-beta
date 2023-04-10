@@ -7,8 +7,11 @@
 	"require-dev": {
 		"yoast/phpunit-polyfills": "1.0.4",
 		"automattic/jetpack-changelogger": "^3.3.2",
-		"automattic/jetpack-logo": "^1.6.0",
+		"automattic/jetpack-logo": "^1.6.1-alpha",
 		"automattic/wordbless": "dev-master"
+	},
+	"suggest": {
+		"automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
 	},
 	"autoload": {
 		"classmap": [
