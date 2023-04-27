@@ -4,6 +4,9 @@
 
 This is an alpha version! The changes listed here are not final.
 
+### Security
+- Disable HTML-style tags in the markdown renderer, the library used doesn't always handle them properly.
+
 ### Changed
 - Updated package dependencies.
 
