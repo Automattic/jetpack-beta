@@ -4,6 +4,9 @@
 
 This is an alpha version! The changes listed here are not final.
 
+### Changed
+- Updated package dependencies.
+
 ### Fixed
 - Avoid deprecation warning in PHP 8.1 when viewing Beta settings screen.
 
