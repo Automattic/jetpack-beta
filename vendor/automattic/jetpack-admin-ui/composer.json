@@ -6,7 +6,7 @@
 	"require": {},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "1.0.4",
-		"automattic/jetpack-changelogger": "^3.3.7-alpha",
+		"automattic/jetpack-changelogger": "^3.3.7",
 		"automattic/jetpack-logo": "^1.6.1",
 		"automattic/wordbless": "dev-master"
 	},
