@@ -5,9 +5,9 @@
 	"license": "GPL-2.0-or-later",
 	"require": {},
 	"require-dev": {
-		"yoast/phpunit-polyfills": "1.0.4",
-		"automattic/jetpack-changelogger": "^3.3.7",
-		"automattic/jetpack-logo": "^1.6.1",
+		"yoast/phpunit-polyfills": "1.1.0",
+		"automattic/jetpack-changelogger": "^3.3.8-alpha",
+		"automattic/jetpack-logo": "^1.6.2-alpha",
 		"automattic/wordbless": "dev-master"
 	},
 	"suggest": {
