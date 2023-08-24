@@ -8,13 +8,13 @@
 		"issues": "https://github.com/Automattic/jetpack/issues"
 	},
 	"require": {
-		"automattic/jetpack-admin-ui": "^0.2.21-alpha",
-		"automattic/jetpack-autoloader": "^2.11.22-alpha",
+		"automattic/jetpack-admin-ui": "^0.2.21",
+		"automattic/jetpack-autoloader": "^2.11.22",
 		"composer/semver": "3.3.2",
 		"erusev/parsedown": "1.7.4"
 	},
 	"require-dev": {
-		"automattic/jetpack-changelogger": "^3.3.8-alpha"
+		"automattic/jetpack-changelogger": "^3.3.8"
 	},
 	"scripts": {},
 	"autoload": {
