@@ -10,6 +10,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Avoid deprecation warning in PHP 8.1 when viewing Beta settings screen.
+- If another PHP error handler was set, chain to it insead of calling PHP's default handler.
 
 ## 3.1.5 - 2023-04-27
 ### Security
