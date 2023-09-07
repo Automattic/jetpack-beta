@@ -2,12 +2,12 @@
     "packages": [
         {
             "name": "automattic/jetpack-admin-ui",
-            "version": "0.2.21",
-            "version_normalized": "0.2.21.0",
+            "version": "0.2.22-alpha.1694113286",
+            "version_normalized": "0.2.22.0-alpha1694113286",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-admin-ui",
-                "reference": "4b9715ad4de558e9fb0caade23722f89bbf0dd06"
+                "reference": "6c5fd1841be898d02de7e2a1677763ccfa9f23c3"
             },
             "require-dev": {
                 "automattic/jetpack-changelogger": "^3.3.8",
@@ -69,7 +69,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-autoloader",
-                "reference": "6d3f04ed3836fde7e25191b4591b256c70b12ed7"
+                "reference": "b6d518d891c54bee8d82802e81016743d9f58d73"
             },
             "require": {
                 "composer-plugin-api": "^1.1 || ^2.0"
