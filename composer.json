@@ -9,12 +9,12 @@
 	},
 	"require": {
 		"automattic/jetpack-admin-ui": "^0.2.23-alpha",
-		"automattic/jetpack-autoloader": "^2.11.22",
+		"automattic/jetpack-autoloader": "^2.11.23-alpha",
 		"composer/semver": "3.3.2",
 		"erusev/parsedown": "1.7.4"
 	},
 	"require-dev": {
-		"automattic/jetpack-changelogger": "^3.3.8"
+		"automattic/jetpack-changelogger": "^3.3.9-alpha"
 	},
 	"scripts": {},
 	"autoload": {
