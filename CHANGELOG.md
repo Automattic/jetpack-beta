@@ -6,6 +6,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - General: remove backwards-compatibility function checks now that the package supports WP 6.2.
+- Updated Jetpack submenu sort order so individual features are alpha-sorted.
 - Updated package dependencies.
 
 ### Fixed
