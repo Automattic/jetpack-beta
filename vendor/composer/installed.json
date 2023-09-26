@@ -7,7 +7,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-admin-ui",
-                "reference": "d7e3aa4f803ee9d912cf91f998453adbc12d94f6"
+                "reference": "2e8d7938b303f71a595b9c8d7cd5c59b3bbb2f20"
             },
             "require-dev": {
                 "automattic/jetpack-changelogger": "^3.3.10",
@@ -64,12 +64,12 @@
         },
         {
             "name": "automattic/jetpack-autoloader",
-            "version": "2.11.23",
-            "version_normalized": "2.11.23.0",
+            "version": "2.12.0-alpha.1695741144",
+            "version_normalized": "2.12.0.0-alpha1695741144",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-autoloader",
-                "reference": "594b0817938468a29f2c51fa687a353fe0246e35"
+                "reference": "9757a8af5bf57f0eb82d24aa9056c932b9e862b5"
             },
             "require": {
                 "composer-plugin-api": "^1.1 || ^2.0"
@@ -86,8 +86,11 @@
                 "changelogger": {
                     "link-template": "https://github.com/Automattic/jetpack-autoloader/compare/v${old}...v${new}"
                 },
+                "version-constants": {
+                    "::VERSION": "src/AutoloadGenerator.php"
+                },
                 "branch-alias": {
-                    "dev-trunk": "2.11.x-dev"
+                    "dev-trunk": "2.12.x-dev"
                 }
             },
             "installation-source": "dist",
