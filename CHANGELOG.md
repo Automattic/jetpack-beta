@@ -1,18 +1,17 @@
 # Changelog
 
-## 3.1.6-alpha - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## 3.1.6 - 2023-10-02
 ### Changed
-- General: remove backwards-compatibility function checks now that the package supports WP 6.2.
-- Updated Jetpack submenu sort order so individual features are alpha-sorted.
-- Updated package dependencies.
+- General: remove backwards-compatibility function checks now that the package supports WP 6.2. [#32772]
+- Updated Jetpack submenu sort order so individual features are alpha-sorted. [#32958]
+- Updated package dependencies. [#31308]
+- Updated package dependencies. [#32307]
+- Updated package dependencies. [#32966]
 
 ### Fixed
-- Avoid deprecation warning in PHP 8.1 when viewing Beta settings screen.
-- If another PHP error handler was set, chain to it insead of calling PHP's default handler.
-- Use WordPress core's `Plugin_Upgrader` to install plugins, as it handles edge cases better.
+- Avoid deprecation warning in PHP 8.1 when viewing Beta settings screen. [#31295]
+- If another PHP error handler was set, chain to it insead of calling PHP's default handler. [#32834]
+- Use WordPress core's `Plugin_Upgrader` to install plugins, as it handles edge cases better. [#33216]
 
 ## 3.1.5 - 2023-04-27
 ### Security
