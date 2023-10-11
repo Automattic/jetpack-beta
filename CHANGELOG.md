@@ -1,5 +1,12 @@
 # Changelog
 
+## 3.1.7-alpha - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Changed
+- Updated package dependencies.
+
 ## 3.1.6 - 2023-10-02
 ### Changed
 - General: remove backwards-compatibility function checks now that the package supports WP 6.2. [#32772]
