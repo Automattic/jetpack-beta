@@ -1,10 +1,11 @@
 # Changelog
 
-## 3.1.7-alpha - unreleased
+## 4.0.0-alpha - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
+- General: updated PHP requirement to PHP 7.0+
 - Updated package dependencies.
 
 ## 3.1.6 - 2023-10-02
