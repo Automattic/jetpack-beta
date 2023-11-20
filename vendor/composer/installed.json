@@ -2,16 +2,19 @@
     "packages": [
         {
             "name": "automattic/jetpack-admin-ui",
-            "version": "0.2.26-alpha.1700072541",
-            "version_normalized": "0.2.26.0-alpha1700072541",
+            "version": "0.3.0-alpha.1700485793",
+            "version_normalized": "0.3.0.0-alpha1700485793",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-admin-ui",
-                "reference": "2632c5d3ebe709889975c1bc354850951ed13149"
+                "reference": "4b1343a5a34142fa8fce0c9245c078ccdde910da"
+            },
+            "require": {
+                "php": ">=7.0"
             },
             "require-dev": {
                 "automattic/jetpack-changelogger": "^4.0.0-alpha",
-                "automattic/jetpack-logo": "^1.6.3",
+                "automattic/jetpack-logo": "^2.0.0-alpha",
                 "automattic/wordbless": "dev-master",
                 "yoast/phpunit-polyfills": "1.1.0"
             },
@@ -27,7 +30,7 @@
                     "link-template": "https://github.com/Automattic/jetpack-admin-ui/compare/${old}...${new}"
                 },
                 "branch-alias": {
-                    "dev-trunk": "0.2.x-dev"
+                    "dev-trunk": "0.3.x-dev"
                 },
                 "version-constants": {
                     "::PACKAGE_VERSION": "src/class-admin-menu.php"
@@ -64,15 +67,16 @@
         },
         {
             "name": "automattic/jetpack-autoloader",
-            "version": "2.12.0",
-            "version_normalized": "2.12.0.0",
+            "version": "3.0.0-alpha.1700485793",
+            "version_normalized": "3.0.0.0-alpha1700485793",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-autoloader",
-                "reference": "aeb2d2658e4c7559bcb430ed5f7849fa7ac09b47"
+                "reference": "11e292c9bfec4eda5b4bc786e8ed63b5b340e2b4"
             },
             "require": {
-                "composer-plugin-api": "^1.1 || ^2.0"
+                "composer-plugin-api": "^1.1 || ^2.0",
+                "php": ">=7.0"
             },
             "require-dev": {
                 "automattic/jetpack-changelogger": "^4.0.0-alpha",
@@ -90,7 +94,7 @@
                     "::VERSION": "src/AutoloadGenerator.php"
                 },
                 "branch-alias": {
-                    "dev-trunk": "2.12.x-dev"
+                    "dev-trunk": "3.0.x-dev"
                 }
             },
             "installation-source": "dist",
