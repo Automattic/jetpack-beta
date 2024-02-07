@@ -1,12 +1,9 @@
 # Changelog
 
-## 4.0.0-alpha - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## 4.0.0 - 2024-02-07
 ### Changed
-- Code Modernization: Replace usage of substr() with str_starts_with() and str_ends_with().
-- General: updated PHP requirement to PHP 7.0+
+- Code Modernization: Replace usage of substr() with str_starts_with() and str_ends_with(). [#34207]
+- General: updated PHP requirement to PHP 7.0+ [#34126]
 - Updated package dependencies.
 
 ## 3.1.6 - 2023-10-02
