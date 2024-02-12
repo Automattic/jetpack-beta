@@ -1,5 +1,12 @@
 # Changelog
 
+## 4.0.1-alpha - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Changed
+- Updated package dependencies.
+
 ## 4.0.0 - 2024-02-07
 ### Changed
 - Code Modernization: Replace usage of substr() with str_starts_with() and str_ends_with(). [#34207]
