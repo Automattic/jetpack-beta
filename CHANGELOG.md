@@ -5,6 +5,7 @@
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
+- Only show installation errors on plugins page
 - Updated package dependencies.
 
 ## 4.0.0 - 2024-02-07
