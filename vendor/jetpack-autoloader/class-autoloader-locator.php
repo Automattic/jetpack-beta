@@ -5,7 +5,7 @@
  * @package automattic/jetpack-autoloader
  */
 
-namespace Automattic\Jetpack\Autoloader\jp567fa3f555de8fd218dfdc1688bb97b5_betaⓥ4_0_1_alpha\al3_0_4;
+namespace Automattic\Jetpack\Autoloader\jp567fa3f555de8fd218dfdc1688bb97b5_betaⓥ4_0_1_alpha\al3_0_5_alpha;
 
  // phpcs:ignore
 
@@ -36,7 +36,7 @@ class Autoloader_Locator {
 	 * Finds the path to the plugin with the latest autoloader.
 	 *
 	 * @param array  $plugin_paths An array of plugin paths.
-	 * @param string $latest_version The latest version reference.
+	 * @param string $latest_version The latest version reference. @phan-output-reference.
 	 *
 	 * @return string|null
 	 */
