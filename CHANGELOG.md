@@ -8,6 +8,7 @@ This is an alpha version! The changes listed here are not final.
 - Hook into red bubble notification when bad installation is detected
 
 ### Changed
+- General: use wp_admin_notice function introduced in WP 6.4 to display notices.
 - Only show installation errors on plugins page
 - Updated package dependencies.
 
