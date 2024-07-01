@@ -1,11 +1,12 @@
 # Changelog
 
-## 4.0.1-alpha - unreleased
+## 4.1.0-alpha - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Hook into red bubble notification when bad installation is detected
+- Support testing mu-plugins (i.e. wpcomsh).
 
 ### Changed
 - General: use wp_admin_notice function introduced in WP 6.4 to display notices.
