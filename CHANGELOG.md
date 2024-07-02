@@ -1,20 +1,17 @@
 # Changelog
 
-## 4.1.0-alpha - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## 4.1.0 - 2024-07-02
 ### Added
-- Hook into red bubble notification when bad installation is detected
-- Support testing mu-plugins (i.e. wpcomsh).
+- Hook into red bubble notification when bad installation is detected [#36449]
+- Support testing mu-plugins (i.e. wpcomsh). [#37955]
 
 ### Changed
-- General: use wp_admin_notice function introduced in WP 6.4 to display notices.
-- Only show installation errors on plugins page
-- Updated package dependencies.
+- General: use wp_admin_notice function introduced in WP 6.4 to display notices. [#37051]
+- Only show installation errors on plugins page [#36390]
+- Updated package dependencies. [#35591] [#36309] [#36775] [#37348] [#37767]
 
 ### Fixed
-- Strip comments in markdown.
+- Strip comments in markdown. [#38140]
 
 ## 4.0.0 - 2024-02-07
 ### Changed
