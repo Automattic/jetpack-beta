@@ -1,5 +1,12 @@
 # Changelog
 
+## 4.1.1-alpha - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Changed
+- Updated package dependencies.
+
 ## 4.1.0 - 2024-07-02
 ### Added
 - Hook into red bubble notification when bad installation is detected [#36449]
