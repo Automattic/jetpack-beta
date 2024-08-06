@@ -9,6 +9,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Fix an undefined variable reference.
+- Lossless image optimization of images in projects/plugins [subdirectories from a* through social]
 
 ## 4.1.0 - 2024-07-02
 ### Added
