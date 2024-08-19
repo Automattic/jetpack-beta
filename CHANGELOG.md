@@ -6,6 +6,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Updated package dependencies.
+- Use site url in email subject if the site title exists and is equale to "Site Title"
 
 ### Fixed
 - Fix an undefined variable reference.
