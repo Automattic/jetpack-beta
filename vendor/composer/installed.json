@@ -2,21 +2,21 @@
     "packages": [
         {
             "name": "automattic/jetpack-admin-ui",
-            "version": "0.4.2",
-            "version_normalized": "0.4.2.0",
+            "version": "0.4.3-alpha.1724273335",
+            "version_normalized": "0.4.3.0-alpha1724273335",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-admin-ui",
-                "reference": "8b33edff35d0b30af07b013b8d9a1bb2dc828751"
+                "reference": "f235f52668002c7dedd968d9e5206116568d6599"
             },
             "require": {
                 "php": ">=7.0"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^4.2.5",
-                "automattic/jetpack-logo": "^2.0.3",
+                "automattic/jetpack-changelogger": "^4.2.6-alpha",
+                "automattic/jetpack-logo": "^2.0.4-alpha",
                 "automattic/wordbless": "dev-master",
-                "yoast/phpunit-polyfills": "1.1.0"
+                "yoast/phpunit-polyfills": "^1.1.1"
             },
             "suggest": {
                 "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
@@ -67,21 +67,21 @@
         },
         {
             "name": "automattic/jetpack-autoloader",
-            "version": "3.0.9",
-            "version_normalized": "3.0.9.0",
+            "version": "3.0.10-alpha.1724273335",
+            "version_normalized": "3.0.10.0-alpha1724273335",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-autoloader",
-                "reference": "e5896e7fc1f53d07679648f0438dc7f135e32cee"
+                "reference": "cc967a85b3bdbb095a4f3919d7488af3a1ddedf0"
             },
             "require": {
                 "composer-plugin-api": "^1.1 || ^2.0",
                 "php": ">=7.0"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^4.2.5",
+                "automattic/jetpack-changelogger": "^4.2.6-alpha",
                 "composer/composer": "^1.1 || ^2.0",
-                "yoast/phpunit-polyfills": "1.1.0"
+                "yoast/phpunit-polyfills": "^1.1.1"
             },
             "type": "composer-plugin",
             "extra": {
