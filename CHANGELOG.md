@@ -5,6 +5,7 @@
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
+- Admin menu: change order of Jetpack sub-menu items
 - Updated package dependencies.
 - Use site url in email subject if the site title exists and is equale to "Site Title"
 
