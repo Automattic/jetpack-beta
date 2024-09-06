@@ -9,7 +9,7 @@
 	},
 	"require": {
 		"automattic/jetpack-admin-ui": "^0.4.5",
-		"automattic/jetpack-autoloader": "^3.0.10",
+		"automattic/jetpack-autoloader": "^3.1.0-alpha",
 		"composer/semver": "3.3.2",
 		"erusev/parsedown": "1.7.4"
 	},
