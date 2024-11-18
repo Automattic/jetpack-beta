@@ -5,7 +5,7 @@
  * @package automattic/jetpack-autoloader
  */
 
-namespace Automattic\Jetpack\Autoloader\jp567fa3f555de8fd218dfdc1688bb97b5_betaⓥ4_1_1_alpha\al4_0_0;
+namespace Automattic\Jetpack\Autoloader\jp567fa3f555de8fd218dfdc1688bb97b5_betaⓥ4_1_1_alpha\al5_0_0_alpha;
 
  // phpcs:ignore
 
@@ -139,13 +139,7 @@ class Latest_Autoloader_Guard {
 				foreach ( $composer_autoloader->getClassMap() as $classname => $path ) {
 					if ( $jetpack_autoloader_loader->find_class_file( $classname ) ) {
 						$msg = "A Composer autoloader is registered with a higher priority than the Jetpack Autoloader and would also handle some of the classes we handle (e.g. $classname => $path). This may cause strange and confusing problems.";
-						// @todo Remove the is_callable check once we drop support for WP 6.5.
-						if ( is_callable( 'wp_trigger_error' ) ) {
-							wp_trigger_error( '', $msg );
-						} else {
-							// phpcs:ignore WordPress.PHP.DevelopmentFunctions.error_log_trigger_error
-							trigger_error( $msg );
-						}
+						wp_trigger_error( '', $msg );
 						continue 2;
 					}
 				}
@@ -153,13 +147,7 @@ class Latest_Autoloader_Guard {
 					if ( isset( $prefixes[ $prefix ] ) ) {
 						$path = array_pop( $paths );
 						$msg  = "A Composer autoloader is registered with a higher priority than the Jetpack Autoloader and would also handle some of the namespaces we handle (e.g. $prefix => $path). This may cause strange and confusing problems.";
-						// @todo Remove the is_callable check once we drop support for WP 6.5.
-						if ( is_callable( 'wp_trigger_error' ) ) {
-							wp_trigger_error( '', $msg );
-						} else {
-							// phpcs:ignore WordPress.PHP.DevelopmentFunctions.error_log_trigger_error
-							trigger_error( $msg );
-						}
+						wp_trigger_error( '', $msg );
 						continue 2;
 					}
 				}
@@ -167,13 +155,7 @@ class Latest_Autoloader_Guard {
 					if ( isset( $prefixes[ $prefix ] ) ) {
 						$path = array_pop( $paths );
 						$msg  = "A Composer autoloader is registered with a higher priority than the Jetpack Autoloader and would also handle some of the namespaces we handle (e.g. $prefix => $path). This may cause strange and confusing problems.";
-						// @todo Remove the is_callable check once we drop support for WP 6.5.
-						if ( is_callable( 'wp_trigger_error' ) ) {
-							wp_trigger_error( '', $msg );
-						} else {
-							// phpcs:ignore WordPress.PHP.DevelopmentFunctions.error_log_trigger_error
-							trigger_error( $msg );
-						}
+						wp_trigger_error( '', $msg );
 						continue 2;
 					}
 				}
