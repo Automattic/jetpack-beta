@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.5.1-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Changed
+- Updated dependencies.
+
 ## [0.5.0] - 2024-11-14
 ### Removed
 - General: Update minimum PHP version to 7.2. [#40147]
@@ -168,6 +175,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 - Fixing menu visibility issues.
 
+[0.5.1-alpha]: https://github.com/Automattic/jetpack-admin-ui/compare/0.5.0...0.5.1-alpha
 [0.5.0]: https://github.com/Automattic/jetpack-admin-ui/compare/0.4.6...0.5.0
 [0.4.6]: https://github.com/Automattic/jetpack-admin-ui/compare/0.4.5...0.4.6
 [0.4.5]: https://github.com/Automattic/jetpack-admin-ui/compare/0.4.4...0.4.5
