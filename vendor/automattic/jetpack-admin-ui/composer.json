@@ -8,7 +8,7 @@
 	},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "^1.1.1",
-		"automattic/jetpack-changelogger": "^5.1.0-alpha",
+		"automattic/jetpack-changelogger": "^5.1.0",
 		"automattic/jetpack-logo": "^3.0.0",
 		"automattic/wordbless": "^0.4.2"
 	},
