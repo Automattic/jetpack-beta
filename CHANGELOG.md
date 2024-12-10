@@ -1,5 +1,12 @@
 # Changelog
 
+## 4.1.2-alpha - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Changed
+- Updated package dependencies.
+
 ## 4.1.1 - 2024-12-04
 ### Changed
 - Admin menu: change order of Jetpack sub-menu items [#39095]
