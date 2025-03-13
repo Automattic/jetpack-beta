@@ -9,7 +9,7 @@
 	"require-dev": {
 		"yoast/phpunit-polyfills": "^1.1.1",
 		"automattic/jetpack-changelogger": "^6.0.1",
-		"automattic/jetpack-logo": "^3.0.3-alpha",
+		"automattic/jetpack-logo": "^3.0.3",
 		"automattic/jetpack-test-environment": "@dev",
 		"automattic/phpunit-select-config": "^1.0.0"
 	},
