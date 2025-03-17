@@ -2,12 +2,12 @@
     "packages": [
         {
             "name": "automattic/jetpack-admin-ui",
-            "version": "0.5.5",
-            "version_normalized": "0.5.5.0",
+            "version": "0.5.6-alpha.1742222219",
+            "version_normalized": "0.5.6.0-alpha1742222219",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-admin-ui",
-                "reference": "dabd22dfae85bf075aca410a42ba4f4c6df7994a"
+                "reference": "3b6e1141dfa1f9c913f05db218dfb649fb61e892"
             },
             "require": {
                 "php": ">=7.2"
@@ -65,12 +65,12 @@
         },
         {
             "name": "automattic/jetpack-autoloader",
-            "version": "5.0.3",
-            "version_normalized": "5.0.3.0",
+            "version": "5.0.4-alpha.1742222219",
+            "version_normalized": "5.0.4.0-alpha1742222219",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-autoloader",
-                "reference": "2fd980adf05f8811edfad895cd3c5d0a8563cbc7"
+                "reference": "0c9b5691cbb85b8bda159a10c306df7665ccf537"
             },
             "require": {
                 "composer-plugin-api": "^2.2",
