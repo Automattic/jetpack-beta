@@ -7,6 +7,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Code: First pass of style coding standards.
 
+### Fixed
+- Code: Update stylesheets to use WordPress font styles.
+
 ## 4.1.2 - 2025-04-03
 ### Changed
 - Code: Use function-style `exit()` and `die()` with a default status code of 0. [#41167]
