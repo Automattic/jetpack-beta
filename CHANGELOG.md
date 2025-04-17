@@ -1,17 +1,14 @@
 # Changelog
 
-## 4.1.3-alpha - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## 4.1.3 - 2025-04-17
 ### Changed
-- Code: First pass of style coding standards.
+- Code: First pass of style coding standards. [#42734]
 
 ### Fixed
-- Code: Update stylesheets to use hex instead of named colors.
-- Code: Update stylesheets to use WordPress font styles.
-- Ensure wpcomsh doesn't reactivate `jetpack/jetpack.php` when we've deactivated it in favor of `jetpack-dev/jetpack.php`.
-- Linting: Use double colon notation for pseudo-element selectors.
+- Code: Update stylesheets to use hex instead of named colors. [#42920]
+- Code: Update stylesheets to use WordPress font styles. [#42928]
+- Ensure wpcomsh doesn't reactivate `jetpack/jetpack.php` when we've deactivated it in favor of `jetpack-dev/jetpack.php`. [#43135]
+- Linting: Use double colon notation for pseudo-element selectors. [#43019]
 
 ## 4.1.2 - 2025-04-03
 ### Changed
