@@ -10,6 +10,7 @@ This is an alpha version! The changes listed here are not final.
 ### Fixed
 - Code: Update stylesheets to use hex instead of named colors.
 - Code: Update stylesheets to use WordPress font styles.
+- Ensure wpcomsh doesn't reactivate `jetpack/jetpack.php` when we've deactivated it in favor of `jetpack-dev/jetpack.php`.
 - Linting: Use double colon notation for pseudo-element selectors.
 
 ## 4.1.2 - 2025-04-03
