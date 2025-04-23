@@ -1,5 +1,12 @@
 # Changelog
 
+## 4.1.4-alpha - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Fixed
+- Linting: Fix more Stylelint violations.
+
 ## 4.1.3 - 2025-04-17
 ### Changed
 - Code: First pass of style coding standards. [#42734]
