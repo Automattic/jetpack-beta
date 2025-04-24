@@ -2,22 +2,22 @@
     "packages": [
         {
             "name": "automattic/jetpack-admin-ui",
-            "version": "0.5.8-alpha.1745352378",
-            "version_normalized": "0.5.8.0-alpha1745352378",
+            "version": "0.5.8-alpha.1745512883",
+            "version_normalized": "0.5.8.0-alpha1745512883",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-admin-ui",
-                "reference": "ef5a86b7e3299401e98d5a765a82df547afb1551"
+                "reference": "68f37524387d28b29480835247a067f59f2b9ca2"
             },
             "require": {
                 "php": ">=7.2"
             },
             "require-dev": {
                 "automattic/jetpack-changelogger": "^6.0.5-alpha",
-                "automattic/jetpack-logo": "^3.0.4",
+                "automattic/jetpack-logo": "^3.0.5-alpha",
                 "automattic/jetpack-test-environment": "@dev",
                 "automattic/phpunit-select-config": "^1.0.3-alpha",
-                "yoast/phpunit-polyfills": "^3.0.0"
+                "yoast/phpunit-polyfills": "^4.0.0"
             },
             "suggest": {
                 "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
@@ -65,12 +65,12 @@
         },
         {
             "name": "automattic/jetpack-autoloader",
-            "version": "5.0.7-alpha.1745352378",
-            "version_normalized": "5.0.7.0-alpha1745352378",
+            "version": "5.0.7-alpha.1745512883",
+            "version_normalized": "5.0.7.0-alpha1745512883",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-autoloader",
-                "reference": "455bae4214db800f79b2343eaf7dd71119cc8727"
+                "reference": "7e5255a7fa87d0f3c6a19cc9994ac06f804d875a"
             },
             "require": {
                 "composer-plugin-api": "^2.2",
@@ -80,7 +80,7 @@
                 "automattic/jetpack-changelogger": "^6.0.5-alpha",
                 "automattic/phpunit-select-config": "^1.0.3-alpha",
                 "composer/composer": "^2.2",
-                "yoast/phpunit-polyfills": "^3.0.0"
+                "yoast/phpunit-polyfills": "^4.0.0"
             },
             "type": "composer-plugin",
             "extra": {
