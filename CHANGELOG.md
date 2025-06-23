@@ -8,6 +8,7 @@ This is an alpha version! The changes listed here are not final.
 - Update package dependencies.
 
 ### Fixed
+- Autoloader: Prevent double slash in autoloader path.
 - Linting: Fix more Stylelint violations.
 - Linting: Remove outdated vendor prefixes in stylesheets.
 
