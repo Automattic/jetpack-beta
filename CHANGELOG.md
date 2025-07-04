@@ -1,16 +1,13 @@
 # Changelog
 
-## 4.1.4-alpha - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## 4.1.4 - 2025-07-04
 ### Changed
-- Update package dependencies.
+- Update package dependencies. [#43425] [#43839]
 
 ### Fixed
-- Autoloader: Prevent double slash in autoloader path.
-- Linting: Fix more Stylelint violations.
-- Linting: Remove outdated vendor prefixes in stylesheets.
+- Autoloader: Prevent double slash in autoloader path. [#44030]
+- Linting: Fix more Stylelint violations. [#43213]
+- Linting: Remove outdated vendor prefixes in stylesheets. [#43219]
 
 ## 4.1.3 - 2025-04-17
 ### Changed
