@@ -9,7 +9,7 @@
 	},
 	"require": {
 		"automattic/jetpack-admin-ui": "^0.5.11",
-		"automattic/jetpack-autoloader": "^5.0.9",
+		"automattic/jetpack-autoloader": "^5.0.10-alpha",
 		"composer/semver": "3.4.3",
 		"erusev/parsedown": "1.7.4"
 	},
@@ -26,7 +26,7 @@
 	"prefer-stable": true,
 	"config": {
 		"sort-packages": true,
-		"autoloader-suffix": "567fa3f555de8fd218dfdc1688bb97b5_betaⓥ4_1_5",
+		"autoloader-suffix": "567fa3f555de8fd218dfdc1688bb97b5_betaⓥ4_1_6_alpha",
 		"allow-plugins": {
 			"automattic/jetpack-autoloader": true
 		}
