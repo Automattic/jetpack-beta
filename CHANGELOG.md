@@ -4,6 +4,9 @@
 
 This is an alpha version! The changes listed here are not final.
 
+### Changed
+- Update package dependencies.
+
 ## 4.1.5 - 2025-09-09
 ### Changed
 - Update package dependencies. [#44206] [#44725] [#45096]
