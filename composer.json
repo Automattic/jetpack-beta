@@ -9,12 +9,12 @@
 	},
 	"require": {
 		"automattic/jetpack-admin-ui": "^0.5.11",
-		"automattic/jetpack-autoloader": "^5.0.13-alpha",
+		"automattic/jetpack-autoloader": "^5.0.13",
 		"composer/semver": "3.4.3",
 		"erusev/parsedown": "1.7.4"
 	},
 	"require-dev": {
-		"automattic/jetpack-changelogger": "^6.0.9-alpha"
+		"automattic/jetpack-changelogger": "^6.0.9"
 	},
 	"scripts": {},
 	"autoload": {
@@ -26,7 +26,7 @@
 	"prefer-stable": true,
 	"config": {
 		"sort-packages": true,
-		"autoloader-suffix": "567fa3f555de8fd218dfdc1688bb97b5_betaⓥ4_1_6_alpha",
+		"autoloader-suffix": "567fa3f555de8fd218dfdc1688bb97b5_betaⓥ4_1_6",
 		"allow-plugins": {
 			"automattic/jetpack-autoloader": true
 		}
