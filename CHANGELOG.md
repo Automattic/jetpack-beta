@@ -1,5 +1,12 @@
 # Changelog
 
+## 4.1.7-alpha - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Changed
+- Check `error_get_last()` if the `WP_Filesystem` doesn't report any error on mu-plugin install failure.
+
 ## 4.1.6 - 2025-11-12
 ### Changed
 - Update package dependencies. [#45478]
