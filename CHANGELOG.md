@@ -6,6 +6,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Check `error_get_last()` if the `WP_Filesystem` doesn't report any error on mu-plugin install failure.
+- Update package dependencies.
 
 ### Fixed
 - Fix branch search not working for uppercase branch names.
