@@ -10,6 +10,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Fix branch search not working for uppercase branch names.
+- Include missing `v` in documentation link to `docs/mu-plugin-info.md` on GitHub.
 
 ## 4.1.6 - 2025-11-12
 ### Changed
