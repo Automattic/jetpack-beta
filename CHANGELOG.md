@@ -1,16 +1,19 @@
 # Changelog
 
-## 4.1.7-alpha - unreleased
+## 4.1.8-alpha - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
+### Fixed
+- Include missing `v` in documentation link to `docs/mu-plugin-info.md` on GitHub.
+
+## 4.1.7 - 2026-02-04
 ### Changed
-- Check `error_get_last()` if the `WP_Filesystem` doesn't report any error on mu-plugin install failure.
-- Update package dependencies.
+- Check `error_get_last()` if the `WP_Filesystem` doesn't report any error on mu-plugin install failure. [#46115]
+- Update package dependencies. [#46785]
 
 ### Fixed
-- Fix branch search not working for uppercase branch names.
-- Include missing `v` in documentation link to `docs/mu-plugin-info.md` on GitHub.
+- Fix branch search not working for uppercase branch names. [#46338]
 
 ## 4.1.6 - 2025-11-12
 ### Changed
