@@ -4,6 +4,9 @@
 
 This is an alpha version! The changes listed here are not final.
 
+### Changed
+- Update package dependencies.
+
 ### Fixed
 - Include missing `v` in documentation link to `docs/mu-plugin-info.md` on GitHub.
 
