@@ -54,6 +54,10 @@ return array(
 		'version' => '0.5.11.0',
 		'path'    => $vendorDir . '/automattic/jetpack-admin-ui/src/class-admin-menu.php'
 	),
+	'Automattic\\Jetpack\\Assets\\Logo' => array(
+		'version' => '3.0.5.0',
+		'path'    => $vendorDir . '/automattic/jetpack-logo/src/class-logo.php'
+	),
 	'Automattic\\Jetpack\\Autoloader\\AutoloadFileWriter' => array(
 		'version' => '5.0.16-alpha',
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/AutoloadFileWriter.php'

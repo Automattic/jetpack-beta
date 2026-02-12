@@ -5,6 +5,7 @@
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
+- Replace 'Jetpack' text with logo icon in the admin bar to reduce horizontal space.
 - Update package dependencies.
 
 ### Fixed

@@ -15,6 +15,7 @@ return array(
     'Automattic\\JetpackBeta\\PluginDataException' => $baseDir . '/src/class-plugindataexception.php',
     'Automattic\\JetpackBeta\\Utils' => $baseDir . '/src/class-utils.php',
     'Automattic\\Jetpack\\Admin_UI\\Admin_Menu' => $vendorDir . '/automattic/jetpack-admin-ui/src/class-admin-menu.php',
+    'Automattic\\Jetpack\\Assets\\Logo' => $vendorDir . '/automattic/jetpack-logo/src/class-logo.php',
     'Automattic\\Jetpack\\Autoloader\\AutoloadFileWriter' => $vendorDir . '/automattic/jetpack-autoloader/src/AutoloadFileWriter.php',
     'Automattic\\Jetpack\\Autoloader\\AutoloadGenerator' => $vendorDir . '/automattic/jetpack-autoloader/src/AutoloadGenerator.php',
     'Automattic\\Jetpack\\Autoloader\\AutoloadProcessor' => $vendorDir . '/automattic/jetpack-autoloader/src/AutoloadProcessor.php',
