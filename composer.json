@@ -15,7 +15,7 @@
 		"erusev/parsedown": "1.7.4"
 	},
 	"require-dev": {
-		"automattic/jetpack-changelogger": "^6.0.14-alpha"
+		"automattic/jetpack-changelogger": "^6.0.14"
 	},
 	"scripts": {},
 	"autoload": {
