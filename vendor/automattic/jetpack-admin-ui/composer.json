@@ -11,7 +11,7 @@
 		"automattic/jetpack-changelogger": "^6.0.14",
 		"automattic/jetpack-logo": "^3.0.5",
 		"automattic/jetpack-test-environment": "@dev",
-		"automattic/phpunit-select-config": "^1.0.4-alpha"
+		"automattic/phpunit-select-config": "^1.0.4"
 	},
 	"suggest": {
 		"automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
