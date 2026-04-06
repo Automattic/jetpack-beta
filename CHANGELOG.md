@@ -5,6 +5,7 @@
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
+- Comment: Add Tracking to Jetpack upsell link.
 - Dependencies: Update lock file to keep root requirements in sync.
 - Replace 'Jetpack' text with logo icon in the admin bar to reduce horizontal space.
 - Update design of the sidebar upsell.
