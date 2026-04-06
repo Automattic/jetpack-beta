@@ -1,12 +1,13 @@
 # Changelog
 
-## 4.1.8-alpha - unreleased
+## 4.2.0-alpha - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Dependencies: Update lock file to keep root requirements in sync.
 - Replace 'Jetpack' text with logo icon in the admin bar to reduce horizontal space.
+- Update design of the sidebar upsell.
 - Update package dependencies.
 
 ### Fixed
