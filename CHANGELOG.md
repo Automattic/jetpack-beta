@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Include missing `v` in documentation link to `docs/mu-plugin-info.md` on GitHub.
+- Move menu position to bottom.
 
 ## 4.1.7 - 2026-02-04
 ### Changed
