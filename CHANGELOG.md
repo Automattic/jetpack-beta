@@ -1,5 +1,12 @@
 # Changelog
 
+## 4.2.1-alpha - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Changed
+- Update package dependencies.
+
 ## 4.2.0 - 2026-04-13
 ### Changed
 - Dependencies: Update lock file to keep root requirements in sync. [#47418]
