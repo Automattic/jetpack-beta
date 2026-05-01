@@ -67,7 +67,7 @@
         'automattic/jetpack-status' => array(
             'pretty_version' => '6.1.3-alpha.1777322605',
             'version' => '6.1.3.0-alpha1777322605',
-            'reference' => '3c302b8bc09e9a9937b4dfb5e3a44d3556b05ab2',
+            'reference' => 'd5f366ce05715f5c996eb78a8a19394b6962412d',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../automattic/jetpack-status',
             'aliases' => array(),

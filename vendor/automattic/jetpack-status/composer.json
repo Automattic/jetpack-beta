@@ -10,8 +10,6 @@
 	"require-dev": {
 		"brain/monkey": "^2.6.2",
 		"yoast/phpunit-polyfills": "^4.0.0",
-		"automattic/jetpack-connection": "@dev",
-		"automattic/jetpack-plans": "@dev",
 		"automattic/jetpack-ip": "^0.4.11-alpha",
 		"automattic/phpunit-select-config": "^1.0.5-alpha"
 	},
