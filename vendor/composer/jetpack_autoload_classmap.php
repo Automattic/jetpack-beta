@@ -83,23 +83,23 @@ return array(
 		'path'    => $vendorDir . '/automattic/jetpack-constants/src/class-constants.php'
 	),
 	'Automattic\\Jetpack\\CookieState' => array(
-		'version' => '6.1.4.0-alpha1778782620',
+		'version' => '6.1.4.0-alpha1778793320',
 		'path'    => $vendorDir . '/automattic/jetpack-status/src/class-cookiestate.php'
 	),
 	'Automattic\\Jetpack\\Errors' => array(
-		'version' => '6.1.4.0-alpha1778782620',
+		'version' => '6.1.4.0-alpha1778793320',
 		'path'    => $vendorDir . '/automattic/jetpack-status/src/class-errors.php'
 	),
 	'Automattic\\Jetpack\\Files' => array(
-		'version' => '6.1.4.0-alpha1778782620',
+		'version' => '6.1.4.0-alpha1778793320',
 		'path'    => $vendorDir . '/automattic/jetpack-status/src/class-files.php'
 	),
 	'Automattic\\Jetpack\\Modules' => array(
-		'version' => '6.1.4.0-alpha1778782620',
+		'version' => '6.1.4.0-alpha1778793320',
 		'path'    => $vendorDir . '/automattic/jetpack-status/src/class-modules.php'
 	),
 	'Automattic\\Jetpack\\Paths' => array(
-		'version' => '6.1.4.0-alpha1778782620',
+		'version' => '6.1.4.0-alpha1778793320',
 		'path'    => $vendorDir . '/automattic/jetpack-status/src/class-paths.php'
 	),
 	'Automattic\\Jetpack\\Redirect' => array(
@@ -107,23 +107,23 @@ return array(
 		'path'    => $vendorDir . '/automattic/jetpack-redirect/src/class-redirect.php'
 	),
 	'Automattic\\Jetpack\\Status' => array(
-		'version' => '6.1.4.0-alpha1778782620',
+		'version' => '6.1.4.0-alpha1778793320',
 		'path'    => $vendorDir . '/automattic/jetpack-status/src/class-status.php'
 	),
 	'Automattic\\Jetpack\\Status\\Cache' => array(
-		'version' => '6.1.4.0-alpha1778782620',
+		'version' => '6.1.4.0-alpha1778793320',
 		'path'    => $vendorDir . '/automattic/jetpack-status/src/class-cache.php'
 	),
 	'Automattic\\Jetpack\\Status\\Host' => array(
-		'version' => '6.1.4.0-alpha1778782620',
+		'version' => '6.1.4.0-alpha1778793320',
 		'path'    => $vendorDir . '/automattic/jetpack-status/src/class-host.php'
 	),
 	'Automattic\\Jetpack\\Status\\Request' => array(
-		'version' => '6.1.4.0-alpha1778782620',
+		'version' => '6.1.4.0-alpha1778793320',
 		'path'    => $vendorDir . '/automattic/jetpack-status/src/class-request.php'
 	),
 	'Automattic\\Jetpack\\Status\\Visitor' => array(
-		'version' => '6.1.4.0-alpha1778782620',
+		'version' => '6.1.4.0-alpha1778793320',
 		'path'    => $vendorDir . '/automattic/jetpack-status/src/class-visitor.php'
 	),
 	'Composer\\Semver\\Comparator' => array(
