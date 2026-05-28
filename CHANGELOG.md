@@ -1,6 +1,6 @@
 # Changelog
 
-## 4.2.1-alpha - unreleased
+## 4.3.0-alpha - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
@@ -8,6 +8,8 @@ This is an alpha version! The changes listed here are not final.
 - Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
 - Remove unneeded development and documentation files from the published plugin.
 - Update package dependencies.
+- When only a -dev version is installed (but not active), it will no longer be hidden in the plugins list. This allows for deleting the files via the plugin page, and for Core's plugin-dependency feature to not give confusing results.
+- When the non-dev version of a plugin is deleted via the plugin page, the -dev version will be deleted as well.
 
 ## 4.2.0 - 2026-04-13
 ### Changed
