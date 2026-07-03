@@ -6,6 +6,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
+- Refresh the Beta Tester admin UI to match the modernized Jetpack admin design: a Jetpack logo header with title/breadcrumb, an Automattic Airline footer, and flat WordPress-design-system cards, toggles, buttons, badges, and search.
 - Remove unneeded development and documentation files from the published plugin.
 - Update package dependencies.
 - When only a -dev version is installed (but not active), it will no longer be hidden in the plugins list. This allows for deleting the files via the plugin page, and for Core's plugin-dependency feature to not give confusing results.
