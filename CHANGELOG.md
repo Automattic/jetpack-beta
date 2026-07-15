@@ -1,5 +1,12 @@
 # Changelog
 
+## 4.3.1-alpha - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Changed
+- Update the Jetpack Beta plugin screenshot in the plugin documentation.
+
 ## 4.3.0 - 2026-07-15
 ### Changed
 - Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency. [#48225]
