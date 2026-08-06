@@ -8,7 +8,7 @@
 		"issues": "https://github.com/Automattic/jetpack/issues"
 	},
 	"require": {
-		"automattic/jetpack-admin-ui": "^0.9.15-alpha",
+		"automattic/jetpack-admin-ui": "^0.9.15",
 		"automattic/jetpack-autoloader": "^5.0.22",
 		"automattic/jetpack-logo": "^3.0.9",
 		"automattic/jetpack-redirect": "^3.0.15",
