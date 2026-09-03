@@ -5,6 +5,7 @@
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
+- Update package dependencies.
 - Update the Jetpack Beta plugin screenshot in the plugin documentation.
 
 ## 4.3.0 - 2026-07-15

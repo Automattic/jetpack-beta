@@ -199,7 +199,7 @@ return array(
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-php-autoloader.php'
 	),
 	'Parsedown' => array(
-		'version' => '1.7.4.0',
+		'version' => '1.8.0.0',
 		'path'    => $vendorDir . '/erusev/parsedown/Parsedown.php'
 	),
 	'Path_Processor' => array(
