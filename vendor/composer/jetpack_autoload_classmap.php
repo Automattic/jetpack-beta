@@ -51,7 +51,7 @@ return array(
 		'path'    => $baseDir . '/src/class-utils.php'
 	),
 	'Automattic\\Jetpack\\Admin_UI\\Admin_Menu' => array(
-		'version' => '0.11.2.0-alpha1788342643',
+		'version' => '0.11.2.0-alpha1788891270',
 		'path'    => $vendorDir . '/automattic/jetpack-admin-ui/src/class-admin-menu.php'
 	),
 	'Automattic\\Jetpack\\Assets\\Logo' => array(
