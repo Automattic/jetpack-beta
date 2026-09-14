@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'automattic/jetpack-admin-ui' => array(
-            'pretty_version' => '0.11.4-alpha.1789069591',
-            'version' => '0.11.4.0-alpha1789069591',
-            'reference' => 'fdbca0a40b2a3ff0141ad5fb09cf5c80fe6f3353',
+            'pretty_version' => '0.11.4',
+            'version' => '0.11.4.0',
+            'reference' => 'aeaeae938a116aab23b887f7b0a7b855f71bcf1c',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../automattic/jetpack-admin-ui',
             'aliases' => array(),
@@ -56,9 +56,9 @@
             'dev_requirement' => false,
         ),
         'automattic/jetpack-logo' => array(
-            'pretty_version' => '4.0.1-alpha.1788909266',
-            'version' => '4.0.1.0-alpha1788909266',
-            'reference' => '4cc72cf74a9d20ab33bdfd2350abade6c3cb543d',
+            'pretty_version' => '4.0.1',
+            'version' => '4.0.1.0',
+            'reference' => '3b172584b2da710be25123b881046e9107e45f44',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../automattic/jetpack-logo',
             'aliases' => array(),
