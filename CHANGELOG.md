@@ -9,6 +9,9 @@ This is an alpha version! The changes listed here are not final.
 - Update package dependencies.
 - Update the Jetpack Beta plugin screenshot in the plugin documentation.
 
+### Fixed
+- Prevent self-deletion when dev version is the only one installed.
+
 ## 4.3.0 - 2026-07-15
 ### Changed
 - Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency. [#48225]
