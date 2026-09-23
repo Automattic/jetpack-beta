@@ -24,6 +24,7 @@ return array(
     'Automattic\\Jetpack\\Constants' => $vendorDir . '/automattic/jetpack-constants/src/class-constants.php',
     'Automattic\\Jetpack\\CookieState' => $vendorDir . '/automattic/jetpack-status/src/class-cookiestate.php',
     'Automattic\\Jetpack\\Errors' => $vendorDir . '/automattic/jetpack-status/src/class-errors.php',
+    'Automattic\\Jetpack\\Feature_Policy' => $vendorDir . '/automattic/jetpack-status/src/class-feature-policy.php',
     'Automattic\\Jetpack\\Files' => $vendorDir . '/automattic/jetpack-status/src/class-files.php',
     'Automattic\\Jetpack\\IP\\Utils' => $vendorDir . '/automattic/jetpack-ip/src/class-utils.php',
     'Automattic\\Jetpack\\Modules' => $vendorDir . '/automattic/jetpack-status/src/class-modules.php',
