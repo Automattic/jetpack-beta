@@ -95,7 +95,7 @@ return array(
 		'path'    => $vendorDir . '/automattic/jetpack-status/src/class-files.php'
 	),
 	'Automattic\\Jetpack\\IP\\Utils' => array(
-		'version' => '0.6.0.0',
+		'version' => '0.7.0.0-alpha1790143860',
 		'path'    => $vendorDir . '/automattic/jetpack-ip/src/class-utils.php'
 	),
 	'Automattic\\Jetpack\\Modules' => array(

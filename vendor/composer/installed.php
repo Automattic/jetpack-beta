@@ -47,9 +47,9 @@
             'dev_requirement' => false,
         ),
         'automattic/jetpack-ip' => array(
-            'pretty_version' => '0.6.0',
-            'version' => '0.6.0.0',
-            'reference' => '368634cf9768e834bc0a8567e6a52d1a5f36bab3',
+            'pretty_version' => '0.7.0-alpha.1790143860',
+            'version' => '0.7.0.0-alpha1790143860',
+            'reference' => '62631754c29424b7caf2121e6cc0b0808b63821b',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../automattic/jetpack-ip',
             'aliases' => array(),
@@ -76,7 +76,7 @@
         'automattic/jetpack-status' => array(
             'pretty_version' => '7.0.1',
             'version' => '7.0.1.0',
-            'reference' => 'e24052cc7b22a3bcd745378b272b7724a6051700',
+            'reference' => 'bd542f84a26f10c166006764e48fe00f6444b926',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../automattic/jetpack-status',
             'aliases' => array(),
