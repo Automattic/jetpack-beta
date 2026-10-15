@@ -1,16 +1,13 @@
 # Changelog
 
-## 4.3.1-alpha - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## 4.3.1 - 2026-10-15
 ### Changed
-- Sidebar: sort Jetpack menu items alphabetically, pinning My Jetpack to the top and external links and Settings to the bottom.
-- Update package dependencies.
-- Update the Jetpack Beta plugin screenshot in the plugin documentation.
+- Sidebar: sort Jetpack menu items alphabetically, pinning My Jetpack to the top and external links and Settings to the bottom. [#52003]
+- Update package dependencies. [#51947]
+- Update the Jetpack Beta plugin screenshot in the plugin documentation. [#50553]
 
 ### Fixed
-- Prevent self-deletion when dev version is the only one installed.
+- Prevent self-deletion when dev version is the only one installed. [#52487]
 
 ## 4.3.0 - 2026-07-15
 ### Changed
