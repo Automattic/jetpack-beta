@@ -8,7 +8,7 @@
 		"issues": "https://github.com/Automattic/jetpack/issues"
 	},
 	"require": {
-		"automattic/jetpack-admin-ui": "^0.14.6-alpha",
+		"automattic/jetpack-admin-ui": "^0.14.6",
 		"automattic/jetpack-autoloader": "^6.0.1",
 		"automattic/jetpack-logo": "^4.0.1",
 		"automattic/jetpack-redirect": "^4.0.0",
@@ -25,7 +25,7 @@
 	"prefer-stable": true,
 	"config": {
 		"sort-packages": true,
-		"autoloader-suffix": "567fa3f555de8fd218dfdc1688bb97b5_betaⓥ4_3_1_alpha",
+		"autoloader-suffix": "567fa3f555de8fd218dfdc1688bb97b5_betaⓥ4_3_1",
 		"allow-plugins": {
 			"automattic/jetpack-autoloader": true
 		}
