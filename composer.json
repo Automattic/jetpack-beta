@@ -8,10 +8,10 @@
 		"issues": "https://github.com/Automattic/jetpack/issues"
 	},
 	"require": {
-		"automattic/jetpack-admin-ui": "^0.14.8-alpha",
-		"automattic/jetpack-autoloader": "^6.0.2-alpha",
-		"automattic/jetpack-logo": "^4.0.2-alpha",
-		"automattic/jetpack-redirect": "^4.0.1-alpha",
+		"automattic/jetpack-admin-ui": "^0.14.8",
+		"automattic/jetpack-autoloader": "^6.0.2",
+		"automattic/jetpack-logo": "^4.0.2",
+		"automattic/jetpack-redirect": "^4.0.1",
 		"composer/semver": "3.4.3",
 		"erusev/parsedown": "1.8.0"
 	},
