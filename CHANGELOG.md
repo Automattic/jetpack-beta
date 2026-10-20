@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.3.2-alpha - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
 ## 4.3.1 - 2026-10-15
 ### Changed
 - Sidebar: sort Jetpack menu items alphabetically, pinning My Jetpack to the top and external links and Settings to the bottom. [#52003]

@@ -8,10 +8,10 @@
 		"issues": "https://github.com/Automattic/jetpack/issues"
 	},
 	"require": {
-		"automattic/jetpack-admin-ui": "^0.14.7",
-		"automattic/jetpack-autoloader": "^6.0.1",
-		"automattic/jetpack-logo": "^4.0.1",
-		"automattic/jetpack-redirect": "^4.0.0",
+		"automattic/jetpack-admin-ui": "^0.14.8-alpha",
+		"automattic/jetpack-autoloader": "^6.0.2-alpha",
+		"automattic/jetpack-logo": "^4.0.2-alpha",
+		"automattic/jetpack-redirect": "^4.0.1-alpha",
 		"composer/semver": "3.4.3",
 		"erusev/parsedown": "1.8.0"
 	},
@@ -25,13 +25,12 @@
 	"prefer-stable": true,
 	"config": {
 		"sort-packages": true,
-		"autoloader-suffix": "567fa3f555de8fd218dfdc1688bb97b5_betaⓥ4_3_1",
+		"autoloader-suffix": "567fa3f555de8fd218dfdc1688bb97b5_betaⓥ4_3_2_alpha",
 		"allow-plugins": {
 			"automattic/jetpack-autoloader": true
 		}
 	},
 	"extra": {
-		"autotagger": true,
 		"autorelease": {
 			"titlefmt": "Jetpack Beta %s"
 		},
