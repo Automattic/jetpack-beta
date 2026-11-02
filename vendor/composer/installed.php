@@ -20,9 +20,9 @@
             'dev_requirement' => false,
         ),
         'automattic/jetpack-autoloader' => array(
-            'pretty_version' => '6.0.2',
-            'version' => '6.0.2.0',
-            'reference' => 'c1eacb1acdca3225bfb00c36b575750691db5532',
+            'pretty_version' => '6.0.3-alpha.1793640348',
+            'version' => '6.0.3.0-alpha1793640348',
+            'reference' => '0783cd68a7c3b654ed9e87393cf351f6a78bef83',
             'type' => 'composer-plugin',
             'install_path' => __DIR__ . '/../automattic/jetpack-autoloader',
             'aliases' => array(),
