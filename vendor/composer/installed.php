@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'automattic/jetpack-admin-ui' => array(
-            'pretty_version' => '0.14.15-alpha.1794425870',
-            'version' => '0.14.15.0-alpha1794425870',
-            'reference' => 'f2c48f0b86581c15f29e7899f0a82209f58a7abe',
+            'pretty_version' => '0.14.15-alpha.1794509550',
+            'version' => '0.14.15.0-alpha1794509550',
+            'reference' => '64ed1f17a8d624e2b2263dbbfd8df17d50472b5a',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../automattic/jetpack-admin-ui',
             'aliases' => array(),
