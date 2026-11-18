@@ -49,6 +49,7 @@ class ComposerStaticInit567fa3f555de8fd218dfdc1688bb97b5_betaⓥ4_3_2_alpha
         'Automattic\\JetpackBeta\\Utils' => __DIR__ . '/../..' . '/src/class-utils.php',
         'Automattic\\Jetpack\\Admin_UI\\Admin_Menu' => __DIR__ . '/..' . '/automattic/jetpack-admin-ui/src/class-admin-menu.php',
         'Automattic\\Jetpack\\Admin_UI\\Admin_Shell' => __DIR__ . '/..' . '/automattic/jetpack-admin-ui/src/class-admin-shell.php',
+        'Automattic\\Jetpack\\Admin_UI\\Media_Library' => __DIR__ . '/..' . '/automattic/jetpack-admin-ui/src/class-media-library.php',
         'Automattic\\Jetpack\\Assets\\Logo' => __DIR__ . '/..' . '/automattic/jetpack-logo/src/class-logo.php',
         'Automattic\\Jetpack\\Autoloader\\AutoloadFileWriter' => __DIR__ . '/..' . '/automattic/jetpack-autoloader/src/AutoloadFileWriter.php',
         'Automattic\\Jetpack\\Autoloader\\AutoloadGenerator' => __DIR__ . '/..' . '/automattic/jetpack-autoloader/src/AutoloadGenerator.php',

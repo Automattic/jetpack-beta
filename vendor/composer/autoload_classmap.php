@@ -16,6 +16,7 @@ return array(
     'Automattic\\JetpackBeta\\Utils' => $baseDir . '/src/class-utils.php',
     'Automattic\\Jetpack\\Admin_UI\\Admin_Menu' => $vendorDir . '/automattic/jetpack-admin-ui/src/class-admin-menu.php',
     'Automattic\\Jetpack\\Admin_UI\\Admin_Shell' => $vendorDir . '/automattic/jetpack-admin-ui/src/class-admin-shell.php',
+    'Automattic\\Jetpack\\Admin_UI\\Media_Library' => $vendorDir . '/automattic/jetpack-admin-ui/src/class-media-library.php',
     'Automattic\\Jetpack\\Assets\\Logo' => $vendorDir . '/automattic/jetpack-logo/src/class-logo.php',
     'Automattic\\Jetpack\\Autoloader\\AutoloadFileWriter' => $vendorDir . '/automattic/jetpack-autoloader/src/AutoloadFileWriter.php',
     'Automattic\\Jetpack\\Autoloader\\AutoloadGenerator' => $vendorDir . '/automattic/jetpack-autoloader/src/AutoloadGenerator.php',
