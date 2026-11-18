@@ -51,15 +51,15 @@ return array(
 		'path'    => $baseDir . '/src/class-utils.php'
 	),
 	'Automattic\\Jetpack\\Admin_UI\\Admin_Menu' => array(
-		'version' => '0.15.0.0-alpha1795036140',
+		'version' => '0.15.0.0-alpha1795039407',
 		'path'    => $vendorDir . '/automattic/jetpack-admin-ui/src/class-admin-menu.php'
 	),
 	'Automattic\\Jetpack\\Admin_UI\\Admin_Shell' => array(
-		'version' => '0.15.0.0-alpha1795036140',
+		'version' => '0.15.0.0-alpha1795039407',
 		'path'    => $vendorDir . '/automattic/jetpack-admin-ui/src/class-admin-shell.php'
 	),
 	'Automattic\\Jetpack\\Admin_UI\\Media_Library' => array(
-		'version' => '0.15.0.0-alpha1795036140',
+		'version' => '0.15.0.0-alpha1795039407',
 		'path'    => $vendorDir . '/automattic/jetpack-admin-ui/src/class-media-library.php'
 	),
 	'Automattic\\Jetpack\\Assets\\Logo' => array(
